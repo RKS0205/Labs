@@ -2,6 +2,44 @@
 
 int loop = 1;
 
+int	check_post_request(char *str, int len)
+{
+	const char *id, *name, *genus, *family, *order, *nutritions, *n_carb, *n_prot, *n_fat, *n_cal, *n_sug;
+	int			i, n, g, f, o, nu, nc, np, nf, ncal, nsug, count;
+	count = 0;    /*count is storing the ammount of ":" in the string in order to determine the number of elements in the string*/
+	if (mjson_find(str, len, "$.id", &id, &i) != MJSON_TOK_NUMBER)
+		count++;
+	if (mjson_find(str, len, "$.name", &name, &n) != MJSON_TOK_STRING)
+		return 0;
+	else if (mjson_find(str, len, "$.genus", &genus, &g) != MJSON_TOK_STRING)
+		return 0;
+	else if (mjson_find(str, len, "$.family", &family, &f) != MJSON_TOK_STRING)
+		return 0;
+	else if (mjson_find(str, len, "$.order", &order, &o) != MJSON_TOK_STRING)
+		return 0;
+	else if (mjson_find(str, len, "$.nutritions", &nutritions, &nu) != MJSON_TOK_OBJECT)
+		return 0;
+	else if (mjson_find(str, len, "$.nutritions.carbohydrates", &n_carb, &nc) != MJSON_TOK_NUMBER)
+		return 0;
+	else if (mjson_find(str, len, "$.nutritions.protein", &n_prot, &np) != MJSON_TOK_NUMBER)
+		return 0;
+	else if (mjson_find(str, len, "$.nutritions.fat", &n_fat, &nf) != MJSON_TOK_NUMBER)
+		return 0;
+	else if (mjson_find(str, len, "$.nutritions.calories", &n_cal, &ncal) != MJSON_TOK_NUMBER)
+		return 0;
+	else if (mjson_find(str, len, "$.nutritions.sugar", &n_sug, &nsug) != MJSON_TOK_NUMBER)
+		return 0;
+	while (len > 0)
+	{
+		if (str[len] == ':')
+			count++;
+		len--;
+	}
+	if (count != 11)
+		return 0;
+	return 1;
+}
+
 void	log_request(struct mg_http_message *hm, int logfd)
 {
 	int header_size;
@@ -25,44 +63,34 @@ static void fn(struct mg_connection *c, int ev, void *ev_data, void *fn_data)
 		log_request(hm, logfd);
 		if (mg_http_match_uri(hm, "/") && strncmp(hm->method.ptr, "GET", hm->method.len) == 0)
 		{
-			if (mysql_query(conn, "SELECT JSON_ARRAYAGG(JSON_OBJECT('id', id, 'name', name, 'genus', genus, \
-					'family', family, 'order', `order`, 'nutritions', nutritions)) from fruit;"))
-				dprintf(2, "Error extracting data from database\n");
-			MYSQL_RES *result = mysql_store_result(conn);
-			MYSQL_ROW row = mysql_fetch_row(result);
-			char *response = ft_strtrim (row[0], "[]");
-			mg_http_reply(c, 200, "Content-Type: application/json\r\n", "%s", response);
-			dprintf (logfd, "RESPONSE CODE : 200\nRESPONSE HEADERS : Content-Type: application/json\nRESPONSE BODY : %s\n\n\n\n", response);
+			char *response = get_db_in_json();
+			if (response == NULL)
+				response_code_500(logfd, c);
+			else
+			{
+				mg_http_reply(c, 200, "Content-Type: application/json\r\n", "%s", response);
+				dprintf (logfd, "RESPONSE CODE : 200\nRESPONSE HEADERS : Content-Type: application/json\nRESPONSE BODY : %s\n\n\n\n", response);
+			}
 			free (response);
 		}
 		else if (mg_http_match_uri(hm, "/") && strncmp(hm->method.ptr, "POST", hm->method.len) == 0)
 		{
-			const char *name;
-			const char *age;
-			int a;
-			int n;
-			if (mjson_find(hm->body.ptr, hm->body.len, "$.name", &name, &n) == MJSON_TOK_STRING
-				&& mjson_find(hm->body.ptr, hm->body.len, "$.age", &age, &a))
+			if (check_post_request((char *)hm->body.ptr, hm->body.len) && insert_into_db((char *)hm->body.ptr, hm->body.len))
 			{
-				mg_http_reply(c, 400, NULL, "Bad request");
+				char *response = get_db_in_json();
+				if (response == NULL)
+					response_code_500(logfd, c);
+				mg_http_reply(c, 201, "Content-Type: application/json\r\n", "%s", response);
+				dprintf (logfd, "RESPONSE CODE : 200\nRESPONSE HEADERS : Content-Type: application/json\nRESPONSE BODY : %s\n\n\n\n", response);
+				free (response);
 			}
 			else
-			{
-				mg_http_reply(c, 400, NULL, "Bad request");
-				dprintf (logfd, "RESPONSE CODE : 400\nRESPONSE HEADERS :\nRESPONSE BODY : Bad request\n\n\n\n");
-			}
+				response_code_400(logfd, c);
 		}
-		else if (mg_http_match_uri(hm, "/") && strncmp(hm->method.ptr, "GET", hm->method.len) != 0)
-		{
-			mg_http_reply(c, 405, NULL, "Method not allowed");
-			dprintf (logfd, "Response : HTTP Status 405 Method not allowed\n\n");
-		}
+		else if (mg_http_match_uri(hm, "/"))
+			response_code_405(logfd, c);
 		else
-		{
-			mg_http_reply(c, 404, NULL, "Not found");
-			dprintf (logfd, "Response : HTTP Status 404 Not foundn\n\n");
-		}
-		fflush(stdout);
+			response_code_404(logfd, c);
 	}
 }
 
@@ -79,14 +107,14 @@ int main()
 	init_mysql_db(str);
 	free (str);
 	mg_mgr_init(&mgr);
-	mg_http_listen(&mgr, "localhost:8000", fn, &mgr);
+	mg_http_listen(&mgr, SERVER_IP, fn, &mgr);
 	signal (SIGINT, close_command);
 	printf ("Server started\n");
 	while (loop)
 		mg_mgr_poll(&mgr, 1000);
+	printf ("\nClosing...\n");
 	mg_mgr_free(&mgr);
 	mysql_library_end();
 	mysql_close(conn);
-	printf ("\nClosing...\n");
 	return 0;
 }
