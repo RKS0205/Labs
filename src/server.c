@@ -60,10 +60,11 @@ static void fn(struct mg_connection *c, int ev, void *ev_data, void *fn_data)
 	{
 		int logfd = open ("server.log", O_WRONLY | O_APPEND);
 		struct mg_http_message *hm = (struct mg_http_message *) ev_data;
+		char *response
 		log_request(hm, logfd);
 		if (mg_http_match_uri(hm, "/") && strncmp(hm->method.ptr, "GET", hm->method.len) == 0)
 		{
-			char *response = get_db_in_json();
+			get_db_in_json(response);
 			if (response == NULL)
 				response_code_500(logfd, c);
 			else
@@ -77,7 +78,7 @@ static void fn(struct mg_connection *c, int ev, void *ev_data, void *fn_data)
 		{
 			if (check_post_request((char *)hm->body.ptr, hm->body.len) && insert_into_db((char *)hm->body.ptr, hm->body.len))
 			{
-				char *response = get_db_in_json();
+				get_db_in_json(response);
 				if (response == NULL)
 					response_code_500(logfd, c);
 				mg_http_reply(c, 201, "Content-Type: application/json\r\n", "%s", response);
