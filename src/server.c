@@ -40,7 +40,7 @@ void	close_command (int signum)
 	loop = 0;
 }
 
-int main()
+int main(void)
 {
 	struct mg_mgr mgr;
 	char *str = get_api_data();

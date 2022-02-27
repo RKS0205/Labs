@@ -1,18 +1,25 @@
-SRC_FILES= server.c curl.c database.c response_code.c uri_path.c check_post_request.c
-SRC=$(addprefix src/, $(SRC_FILES))
-OBJ=$(addprefix obj/, $(SRC_FILES:.c=.o))
+API_SRC_FILES= server.c curl.c database.c response_code.c uri_path.c check_post_request.c
+CLI_SRC_FILES= cli.c str_check.c get_next_line.c database.c curl.c
+A_SRC=$(addprefix src/, $(API_SRC_FILES))
+C_SRC=$(addprefix src/, $(CLI_SRC_FILES))
+A_OBJ=$(addprefix obj/, $(API_SRC_FILES:.c=.o))
+C_OBJ=$(addprefix obj/, $(CLI_SRC_FILES:.c=.o))
 OBJ_DIR=obj
 LIBFT=libft/libft.a
 LIBFT_DIR=libft
 LIB_MJSON=mjson/src/mjson.c
 LIB_MONGOOSE=mongoose/mongoose.c
 FLAGS= `mysql_config --cflags --libs` -lcurl
-NAME=api
+API_NAME=api
+CLI_NAME=cli
 
-all: $(NAME)
+all: $(API_NAME) $(CLI_NAME)
 
-$(NAME): $(LIBFT) $(OBJ_DIR) $(OBJ)
-	gcc  $(OBJ) $(LIBFT) $(LIB_MJSON) $(LIB_MONGOOSE) -o $(NAME) $(FLAGS)
+$(API_NAME): $(LIBFT) $(OBJ_DIR) $(A_OBJ)
+	gcc  $(A_OBJ) $(LIBFT) $(LIB_MJSON) $(LIB_MONGOOSE) -o $(API_NAME) $(FLAGS)
+
+$(CLI_NAME): $(LIBFT) $(OBJ_DIR) $(C_OBJ)
+	gcc  $(C_OBJ) $(LIBFT) $(LIB_MJSON) $(LIB_MONGOOSE) -o $(CLI_NAME) $(FLAGS)
 
 obj/%.o: src/%.c
 	gcc -c $< -o $@ $(FLAGS)
@@ -24,13 +31,13 @@ $(LIBFT):
 	make -C $(LIBFT_DIR)
 
 clean:
-	rm -rf $(OBJ)
-	rm -rf $(OBJ_B)
+	rm -rf $(A_OBJ)
+	rm -rf $(C_OBJ)
 	make -C $(LIBFT_DIR) clean
 
 fclean: clean
-	rm -rf $(NAME)
-	rm -rf $(NAME_B)
+	rm -rf $(API_NAME)
+	rm -rf $(CLI_NAME)
 	make -C $(LIBFT_DIR) fclean
 
 re: fclean all

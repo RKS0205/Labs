@@ -4,8 +4,8 @@ void	uri_root_path(struct mg_http_message *hm, int logfd, struct mg_connection *
 {
 	if (strncmp(hm->method.ptr, "GET", hm->method.len) == 0)
 	{
-		mg_http_reply(c, 200, "Content-Type: application/json\r\n", "{\"fruit\":%s/fruit}", SERVER_IP);
-		dprintf (logfd, "RESPONSE CODE : 200\nRESPONSE HEADERS : Content-Type: application/json\nRESPONSE BODY : {\"fruit\":%s/fruit}\n\n\n\n", SERVER_IP);
+		mg_http_reply(c, 200, "Content-Type: application/json\r\n", "{\"fruit\":\"%s/fruit\", \"id\":\"%s/fruit/id\"}", SERVER_IP, SERVER_IP);
+		dprintf (logfd, "RESPONSE CODE : 200\nRESPONSE HEADERS : Content-Type: application/json\nRESPONSE BODY : {\"fruit\":\"%s/fruit\", \"id\":\"%s/fruit/id\"}\n\n\n\n", SERVER_IP, SERVER_IP);
 	}
 	else
 		response_code_405(logfd, c);
