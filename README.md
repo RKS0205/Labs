@@ -25,7 +25,7 @@ Used to request data from https://fruityvice.com/api/fruit/all/
 
 ## How to run
 
-- Run ```make``` to build the server and cli
+- Run ```make``` to build the server and CLI
 - Run ```./api``` to start the server and ```./cli``` to use the CLI
   
 ## What it does
