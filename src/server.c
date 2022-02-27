@@ -2,44 +2,6 @@
 
 int loop = 1;
 
-int	check_post_request(char *str, int len)
-{
-	const char *id, *name, *genus, *family, *order, *nutritions, *n_carb, *n_prot, *n_fat, *n_cal, *n_sug;
-	int			i, n, g, f, o, nu, nc, np, nf, ncal, nsug, count;
-	count = 0;    /*count is storing the ammount of ":" in the string in order to determine the number of elements in the string*/
-	if (mjson_find(str, len, "$.id", &id, &i) != MJSON_TOK_NUMBER)
-		count++;
-	if (mjson_find(str, len, "$.name", &name, &n) != MJSON_TOK_STRING)
-		return 0;
-	else if (mjson_find(str, len, "$.genus", &genus, &g) != MJSON_TOK_STRING)
-		return 0;
-	else if (mjson_find(str, len, "$.family", &family, &f) != MJSON_TOK_STRING)
-		return 0;
-	else if (mjson_find(str, len, "$.order", &order, &o) != MJSON_TOK_STRING)
-		return 0;
-	else if (mjson_find(str, len, "$.nutritions", &nutritions, &nu) != MJSON_TOK_OBJECT)
-		return 0;
-	else if (mjson_find(str, len, "$.nutritions.carbohydrates", &n_carb, &nc) != MJSON_TOK_NUMBER)
-		return 0;
-	else if (mjson_find(str, len, "$.nutritions.protein", &n_prot, &np) != MJSON_TOK_NUMBER)
-		return 0;
-	else if (mjson_find(str, len, "$.nutritions.fat", &n_fat, &nf) != MJSON_TOK_NUMBER)
-		return 0;
-	else if (mjson_find(str, len, "$.nutritions.calories", &n_cal, &ncal) != MJSON_TOK_NUMBER)
-		return 0;
-	else if (mjson_find(str, len, "$.nutritions.sugar", &n_sug, &nsug) != MJSON_TOK_NUMBER)
-		return 0;
-	while (len > 0)
-	{
-		if (str[len] == ':')
-			count++;
-		len--;
-	}
-	if (count != 11)
-		return 0;
-	return 1;
-}
-
 void	log_request(struct mg_http_message *hm, int logfd)
 {
 	int header_size;
@@ -60,36 +22,13 @@ static void fn(struct mg_connection *c, int ev, void *ev_data, void *fn_data)
 	{
 		int logfd = open ("server.log", O_WRONLY | O_APPEND);
 		struct mg_http_message *hm = (struct mg_http_message *) ev_data;
-		char *response
 		log_request(hm, logfd);
-		if (mg_http_match_uri(hm, "/") && strncmp(hm->method.ptr, "GET", hm->method.len) == 0)
-		{
-			get_db_in_json(response);
-			if (response == NULL)
-				response_code_500(logfd, c);
-			else
-			{
-				mg_http_reply(c, 200, "Content-Type: application/json\r\n", "%s", response);
-				dprintf (logfd, "RESPONSE CODE : 200\nRESPONSE HEADERS : Content-Type: application/json\nRESPONSE BODY : %s\n\n\n\n", response);
-			}
-			free (response);
-		}
-		else if (mg_http_match_uri(hm, "/") && strncmp(hm->method.ptr, "POST", hm->method.len) == 0)
-		{
-			if (check_post_request((char *)hm->body.ptr, hm->body.len) && insert_into_db((char *)hm->body.ptr, hm->body.len))
-			{
-				get_db_in_json(response);
-				if (response == NULL)
-					response_code_500(logfd, c);
-				mg_http_reply(c, 201, "Content-Type: application/json\r\n", "%s", response);
-				dprintf (logfd, "RESPONSE CODE : 200\nRESPONSE HEADERS : Content-Type: application/json\nRESPONSE BODY : %s\n\n\n\n", response);
-				free (response);
-			}
-			else
-				response_code_400(logfd, c);
-		}
-		else if (mg_http_match_uri(hm, "/"))
-			response_code_405(logfd, c);
+		if (mg_http_match_uri(hm, "/"))
+			uri_root_path(hm, logfd, c);
+		else if (mg_http_match_uri(hm, "/fruit") || mg_http_match_uri(hm, "/fruit/"))
+			uri_fruit_path(hm, logfd, c);
+		else if (strncmp(hm->body.ptr, "/fruit/", 7))
+			uri_id_path(hm, logfd, c);
 		else
 			response_code_404(logfd, c);
 	}

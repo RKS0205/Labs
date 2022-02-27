@@ -19,11 +19,18 @@ MYSQL* conn;
 char	*get_api_data(void);
 void	init_mysql_db(char *str);
 int	insert_into_db(char *str, int len);
-void	get_db_in_json(char *response);
-int		get_id_in_json(char *response, char *id, int len);
+int		get_db_in_json(char **response);
+int		get_id_in_json(char **response, char *id, int len);
+int		delete_row_from_db(char *str, int len);
+void	uri_root_path(struct mg_http_message *hm, int logfd, struct mg_connection *c);
+void	uri_fruit_path(struct mg_http_message *hm, int logfd, struct mg_connection *c);
+void	uri_id_path(struct mg_http_message *hm, int logfd, struct mg_connection *c);
+int		check_post_request(char *str, int len);
 void	response_code_400(int logfd, struct mg_connection *c);
 void	response_code_404(int logfd, struct mg_connection *c);
 void	response_code_405(int logfd, struct mg_connection *c);
 void	response_code_500(int logfd, struct mg_connection *c);
+void	response_code_200(int logfd, struct mg_connection *c, char *response);
+void	response_code_201(int logfd, struct mg_connection *c, char *response);
 
 #endif

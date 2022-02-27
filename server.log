@@ -1571,3 +1571,1416 @@ Response : HTTP Status 404 Not found
 
 
 
+REQUEST TIME : Sat Feb 26 14:07:17 2022
+REQUEST METHOD : GET
+REQUEST URI : /
+REQUEST HEADERS :
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="83", "Chromium";v="97", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 OPR/83.0.4254.70
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+REQUEST BODY :
+
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"fruit":localhost:8000}
+
+
+
+REQUEST TIME : Sat Feb 26 14:07:18 2022
+REQUEST METHOD : GET
+REQUEST URI : /
+REQUEST HEADERS :
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="83", "Chromium";v="97", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 OPR/83.0.4254.70
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+REQUEST BODY :
+
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"fruit":localhost:8000}
+
+
+
+REQUEST TIME : Sat Feb 26 14:07:18 2022
+REQUEST METHOD : GET
+REQUEST URI : /favicon.ico
+REQUEST HEADERS :
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="83", "Chromium";v="97", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 OPR/83.0.4254.70
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:8000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+REQUEST BODY :
+
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sat Feb 26 14:07:23 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit
+REQUEST HEADERS :
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="83", "Chromium";v="97", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 OPR/83.0.4254.70
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+REQUEST BODY :
+
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : `“j¾ÿ
+
+
+
+REQUEST TIME : Sat Feb 26 14:07:29 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit
+REQUEST HEADERS :
+Host: localhost:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Opera GX";v="83", "Chromium";v="97", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 OPR/83.0.4254.70
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+REQUEST BODY :
+
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : `“j¾ÿ
+
+
+
+REQUEST TIME : Sat Feb 26 14:08:57 2022
+REQUEST METHOD : GET
+REQUEST URI : /
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 169
+REQUEST BODY :
+{"genus": "Uh oh", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"fruit":localhost:8000}
+
+
+
+REQUEST TIME : Sat Feb 26 14:09:01 2022
+REQUEST METHOD : GET
+REQUEST URI : //fruit
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 169
+REQUEST BODY :
+{"genus": "Uh oh", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sat Feb 26 14:09:04 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 169
+REQUEST BODY :
+{"genus": "Uh oh", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : †s¾ÿ
+
+
+
+REQUEST TIME : Sat Feb 26 14:09:26 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 169
+REQUEST BODY :
+{"genus": "Uh oh", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : †s¾ÿ
+
+
+
+REQUEST TIME : Sat Feb 26 14:15:25 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 169
+REQUEST BODY :
+{"genus": "Uh oh", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : `Ã^Ëÿ
+
+
+
+REQUEST TIME : Sat Feb 26 14:16:59 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 169
+REQUEST BODY :
+{"genus": "Uh oh", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : `“@Áÿ
+
+
+
+REQUEST TIME : Sat Feb 26 14:17:01 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 169
+REQUEST BODY :
+{"genus": "Uh oh", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : `“@Áÿ
+
+
+
+REQUEST TIME : Sat Feb 26 14:22:01 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 169
+REQUEST BODY :
+{"genus": "Uh oh", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {Ó*Àÿ
+
+
+
+REQUEST TIME : Sat Feb 26 14:22:03 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 169
+REQUEST BODY :
+{"genus": "Uh oh", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {Ó*Àÿ
+
+
+
+REQUEST TIME : Sat Feb 26 14:24:54 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 169
+REQUEST BODY :
+{"genus": "Uh oh", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 1, "name": "Banana", "genus": "Musa", "order": "Zingiberales", "family": "Musaceae", "nutritions": {"fat": 0.2, "sugar": 17.2, "protein": 1, "calories": 96, "carbohydrates": 22}}, {"id": 2, "name": "Orange", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.2, "sugar": 8.2, "protein": 1, "calories": 43, "carbohydrates": 8.3}}, {"id": 3, "name": "Strawberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0.8, "calories": 29, "carbohydrates": 5.5}}, {"id": 4, "name": "Pear", "genus": "Pyrus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 10, "protein": 0.4, "calories": 57, "carbohydrates": 15}}, {"id": 5, "name": "Tomato", "genus": "Solanum", "order": "Solanales", "family": "Solanaceae", "nutritions": {"fat": 0.2, "sugar": 2.6, "protein": 0.9, "calories": 74, "carbohydrates": 3.9}}, {"id": 6, "name": "Apple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 10.3, "protein": 0.3, "calories": 52, "carbohydrates": 11.4}}, {"id": 9, "name": "Cherry", "genus": "Prunus", "order": "None", "family": "Rosaceae", "nutritions": {"fat": 0.3, "sugar": 8, "protein": 1, "calories": 50, "carbohydrates": 12}}, {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}, {"id": 23, "name": "Raspberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.7, "sugar": 4.4, "protein": 1.2, "calories": 53, "carbohydrates": 12}}, {"id": 25, "name": "Watermelon", "genus": "Citrullus", "order": "Cucurbitales", "family": "Cucurbitaceae", "nutritions": {"fat": 0.2, "sugar": 6, "protein": 0.6, "calories": 30, "carbohydrates": 8}}, {"id": 26, "name": "Lemon", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.3, "sugar": 2.5, "protein": 1.1, "calories": 29, "carbohydrates": 9}}, {"id": 27, "name": "Mango", "genus": "Mangifera", "order": "Sapindales", "family": "Anacardiaceae", "nutritions": {"fat": 0.38, "sugar": 13.7, "protein": 0.82, "calories": 60, "carbohydrates": 15}}, {"id": 33, "name": "Blueberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0, "calories": 29, "carbohydrates": 5.5}}, {"id": 35, "name": "Apricot", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 3.2, "protein": 0.5, "calories": 15, "carbohydrates": 3.9}}, {"id": 37, "name": "Guava", "genus": "Psidium", "order": "Myrtales", "family": "Myrtaceae", "nutritions": {"fat": 1, "sugar": 9, "protein": 2.6, "calories": 68, "carbohydrates": 14}}, {"id": 41, "name": "Melon", "genus": "Cucumis", "order": "Cucurbitaceae", "family": "Cucurbitaceae", "nutritions": {"fat": 0, "sugar": 8, "protein": 0, "calories": 34, "carbohydrates": 8}}, {"id": 42, "name": "Papaya", "genus": "Carica", "order": "Caricacea", "family": "Caricaceae", "nutritions": {"fat": 0.4, "sugar": 1, "protein": 0, "calories": 43, "carbohydrates": 11}}, {"id": 44, "name": "Lime", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.1, "sugar": 1.7, "protein": 0.3, "calories": 25, "carbohydrates": 8.4}}, {"id": 47, "name": "Grapes", "genus": "Vitis", "order": "Vitales", "family": "Vitaceae", "nutritions": {"fat": 0.16, "sugar": 15.48, "protein": 0.72, "calories": 69, "carbohydrates": 18.1}}, {"id": 52, "name": "Persimmon", "genus": "Diospyros", "order": "Rosales", "family": "Ebenaceae", "nutritions": {"fat": 0, "sugar": 18, "protein": 0, "calories": 81, "carbohydrates": 18}}, {"id": 60, "name": "Durian", "genus": "Durio", "order": "Malvales", "family": "Malvaceae", "nutritions": {"fat": 5.3, "sugar": 6.75, "protein": 1.5, "calories": 147, "carbohydrates": 27.1}}, {"id": 64, "name": "Blackberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 4.5, "protein": 1.3, "calories": 40, "carbohydrates": 9}}, {"id": 65, "name": "Lingonberry", "genus": "Vaccinium", "order": "Ericales", "family": "Ericaceae", "nutritions": {"fat": 0.34, "sugar": 5.74, "protein": 0.75, "calories": 50, "carbohydrates": 11.3}}, {"id": 66, "name": "Kiwi", "genus": "Apteryx", "order": "Struthioniformes", "family": "Actinidiaceae", "nutritions": {"fat": 0.5, "sugar": 9, "protein": 1.1, "calories": 61, "carbohydrates": 15}}, {"id": 67, "name": "Lychee", "genus": "Litchi", "order": "Sapindales", "family": "Sapindaceae", "nutritions": {"fat": 0.44, "sugar": 15, "protein": 0.8, "calories": 66, "carbohydrates": 17}}, {"id": 68, "name": "Fig", "genus": "Ficus", "order": "Rosales", "family": "Moraceae", "nutritions": {"fat": 0.3, "sugar": 16, "protein": 0.8, "calories": 74, "carbohydrates": 19}}, {"id": 69, "name": "Gooseberry", "genus": "Ribes", "order": "Saxifragales", "family": "Grossulariaceae", "nutritions": {"fat": 0.6, "sugar": 0, "protein": 0.9, "calories": 44, "carbohydrates": 10}}, {"id": 70, "name": "Passionfruit", "genus": "Passiflora", "order": "Malpighiales", "family": "Passifloraceae", "nutritions": {"fat": 0.7, "sugar": 11.2, "protein": 2.2, "calories": 97, "carbohydrates": 22.4}}, {"id": 71, "name": "Plum", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.28, "sugar": 9.92, "protein": 0.7, "calories": 46, "carbohydrates": 11.4}}, {"id": 72, "name": "GreenApple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 6.4, "protein": 0.4, "calories": 21, "carbohydrates": 3.1}}, {"id": 73, "name": "Umbu", "genus": "Spondias", "order": "0", "family": "Anacardiaceae", "nutritions": {"fat": 0, "sugar": 0, "protein": 0, "calories": 0, "carbohydrates": 0}}, {"id": 74, "name": "Poopoo", "genus": "Uh oh", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}
+
+
+
+REQUEST TIME : Sat Feb 26 17:29:50 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 169
+REQUEST BODY :
+{"genus": "Uh oh", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 1, "name": "Banana", "genus": "Musa", "order": "Zingiberales", "family": "Musaceae", "nutritions": {"fat": 0.2, "sugar": 17.2, "protein": 1, "calories": 96, "carbohydrates": 22}}, {"id": 2, "name": "Orange", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.2, "sugar": 8.2, "protein": 1, "calories": 43, "carbohydrates": 8.3}}, {"id": 3, "name": "Strawberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0.8, "calories": 29, "carbohydrates": 5.5}}, {"id": 4, "name": "Pear", "genus": "Pyrus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 10, "protein": 0.4, "calories": 57, "carbohydrates": 15}}, {"id": 5, "name": "Tomato", "genus": "Solanum", "order": "Solanales", "family": "Solanaceae", "nutritions": {"fat": 0.2, "sugar": 2.6, "protein": 0.9, "calories": 74, "carbohydrates": 3.9}}, {"id": 6, "name": "Apple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 10.3, "protein": 0.3, "calories": 52, "carbohydrates": 11.4}}, {"id": 9, "name": "Cherry", "genus": "Prunus", "order": "None", "family": "Rosaceae", "nutritions": {"fat": 0.3, "sugar": 8, "protein": 1, "calories": 50, "carbohydrates": 12}}, {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}, {"id": 23, "name": "Raspberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.7, "sugar": 4.4, "protein": 1.2, "calories": 53, "carbohydrates": 12}}, {"id": 25, "name": "Watermelon", "genus": "Citrullus", "order": "Cucurbitales", "family": "Cucurbitaceae", "nutritions": {"fat": 0.2, "sugar": 6, "protein": 0.6, "calories": 30, "carbohydrates": 8}}, {"id": 26, "name": "Lemon", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.3, "sugar": 2.5, "protein": 1.1, "calories": 29, "carbohydrates": 9}}, {"id": 27, "name": "Mango", "genus": "Mangifera", "order": "Sapindales", "family": "Anacardiaceae", "nutritions": {"fat": 0.38, "sugar": 13.7, "protein": 0.82, "calories": 60, "carbohydrates": 15}}, {"id": 33, "name": "Blueberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0, "calories": 29, "carbohydrates": 5.5}}, {"id": 35, "name": "Apricot", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 3.2, "protein": 0.5, "calories": 15, "carbohydrates": 3.9}}, {"id": 37, "name": "Guava", "genus": "Psidium", "order": "Myrtales", "family": "Myrtaceae", "nutritions": {"fat": 1, "sugar": 9, "protein": 2.6, "calories": 68, "carbohydrates": 14}}, {"id": 41, "name": "Melon", "genus": "Cucumis", "order": "Cucurbitaceae", "family": "Cucurbitaceae", "nutritions": {"fat": 0, "sugar": 8, "protein": 0, "calories": 34, "carbohydrates": 8}}, {"id": 42, "name": "Papaya", "genus": "Carica", "order": "Caricacea", "family": "Caricaceae", "nutritions": {"fat": 0.4, "sugar": 1, "protein": 0, "calories": 43, "carbohydrates": 11}}, {"id": 44, "name": "Lime", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.1, "sugar": 1.7, "protein": 0.3, "calories": 25, "carbohydrates": 8.4}}, {"id": 47, "name": "Grapes", "genus": "Vitis", "order": "Vitales", "family": "Vitaceae", "nutritions": {"fat": 0.16, "sugar": 15.48, "protein": 0.72, "calories": 69, "carbohydrates": 18.1}}, {"id": 52, "name": "Persimmon", "genus": "Diospyros", "order": "Rosales", "family": "Ebenaceae", "nutritions": {"fat": 0, "sugar": 18, "protein": 0, "calories": 81, "carbohydrates": 18}}, {"id": 60, "name": "Durian", "genus": "Durio", "order": "Malvales", "family": "Malvaceae", "nutritions": {"fat": 5.3, "sugar": 6.75, "protein": 1.5, "calories": 147, "carbohydrates": 27.1}}, {"id": 64, "name": "Blackberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 4.5, "protein": 1.3, "calories": 40, "carbohydrates": 9}}, {"id": 65, "name": "Lingonberry", "genus": "Vaccinium", "order": "Ericales", "family": "Ericaceae", "nutritions": {"fat": 0.34, "sugar": 5.74, "protein": 0.75, "calories": 50, "carbohydrates": 11.3}}, {"id": 66, "name": "Kiwi", "genus": "Apteryx", "order": "Struthioniformes", "family": "Actinidiaceae", "nutritions": {"fat": 0.5, "sugar": 9, "protein": 1.1, "calories": 61, "carbohydrates": 15}}, {"id": 67, "name": "Lychee", "genus": "Litchi", "order": "Sapindales", "family": "Sapindaceae", "nutritions": {"fat": 0.44, "sugar": 15, "protein": 0.8, "calories": 66, "carbohydrates": 17}}, {"id": 68, "name": "Fig", "genus": "Ficus", "order": "Rosales", "family": "Moraceae", "nutritions": {"fat": 0.3, "sugar": 16, "protein": 0.8, "calories": 74, "carbohydrates": 19}}, {"id": 69, "name": "Gooseberry", "genus": "Ribes", "order": "Saxifragales", "family": "Grossulariaceae", "nutritions": {"fat": 0.6, "sugar": 0, "protein": 0.9, "calories": 44, "carbohydrates": 10}}, {"id": 70, "name": "Passionfruit", "genus": "Passiflora", "order": "Malpighiales", "family": "Passifloraceae", "nutritions": {"fat": 0.7, "sugar": 11.2, "protein": 2.2, "calories": 97, "carbohydrates": 22.4}}, {"id": 71, "name": "Plum", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.28, "sugar": 9.92, "protein": 0.7, "calories": 46, "carbohydrates": 11.4}}, {"id": 72, "name": "GreenApple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 6.4, "protein": 0.4, "calories": 21, "carbohydrates": 3.1}}, {"id": 73, "name": "Umbu", "genus": "Spondias", "order": "0", "family": "Anacardiaceae", "nutritions": {"fat": 0, "sugar": 0, "protein": 0, "calories": 0, "carbohydrates": 0}}, {"id": 74, "name": "Poopoo", "genus": "Uh oh", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}
+
+
+
+REQUEST TIME : Sat Feb 26 17:29:54 2022
+REQUEST METHOD : POST
+REQUEST URI : /fruit
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 169
+REQUEST BODY :
+{"genus": "Uh oh", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 400
+RESPONSE HEADERS :
+RESPONSE BODY : Bad request
+
+
+
+REQUEST TIME : Sat Feb 26 17:29:59 2022
+REQUEST METHOD : POST
+REQUEST URI : /fruit
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh2", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 1, "name": "Banana", "genus": "Musa", "order": "Zingiberales", "family": "Musaceae", "nutritions": {"fat": 0.2, "sugar": 17.2, "protein": 1, "calories": 96, "carbohydrates": 22}}, {"id": 2, "name": "Orange", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.2, "sugar": 8.2, "protein": 1, "calories": 43, "carbohydrates": 8.3}}, {"id": 3, "name": "Strawberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0.8, "calories": 29, "carbohydrates": 5.5}}, {"id": 4, "name": "Pear", "genus": "Pyrus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 10, "protein": 0.4, "calories": 57, "carbohydrates": 15}}, {"id": 5, "name": "Tomato", "genus": "Solanum", "order": "Solanales", "family": "Solanaceae", "nutritions": {"fat": 0.2, "sugar": 2.6, "protein": 0.9, "calories": 74, "carbohydrates": 3.9}}, {"id": 6, "name": "Apple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 10.3, "protein": 0.3, "calories": 52, "carbohydrates": 11.4}}, {"id": 9, "name": "Cherry", "genus": "Prunus", "order": "None", "family": "Rosaceae", "nutritions": {"fat": 0.3, "sugar": 8, "protein": 1, "calories": 50, "carbohydrates": 12}}, {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}, {"id": 23, "name": "Raspberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.7, "sugar": 4.4, "protein": 1.2, "calories": 53, "carbohydrates": 12}}, {"id": 25, "name": "Watermelon", "genus": "Citrullus", "order": "Cucurbitales", "family": "Cucurbitaceae", "nutritions": {"fat": 0.2, "sugar": 6, "protein": 0.6, "calories": 30, "carbohydrates": 8}}, {"id": 26, "name": "Lemon", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.3, "sugar": 2.5, "protein": 1.1, "calories": 29, "carbohydrates": 9}}, {"id": 27, "name": "Mango", "genus": "Mangifera", "order": "Sapindales", "family": "Anacardiaceae", "nutritions": {"fat": 0.38, "sugar": 13.7, "protein": 0.82, "calories": 60, "carbohydrates": 15}}, {"id": 33, "name": "Blueberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0, "calories": 29, "carbohydrates": 5.5}}, {"id": 35, "name": "Apricot", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 3.2, "protein": 0.5, "calories": 15, "carbohydrates": 3.9}}, {"id": 37, "name": "Guava", "genus": "Psidium", "order": "Myrtales", "family": "Myrtaceae", "nutritions": {"fat": 1, "sugar": 9, "protein": 2.6, "calories": 68, "carbohydrates": 14}}, {"id": 41, "name": "Melon", "genus": "Cucumis", "order": "Cucurbitaceae", "family": "Cucurbitaceae", "nutritions": {"fat": 0, "sugar": 8, "protein": 0, "calories": 34, "carbohydrates": 8}}, {"id": 42, "name": "Papaya", "genus": "Carica", "order": "Caricacea", "family": "Caricaceae", "nutritions": {"fat": 0.4, "sugar": 1, "protein": 0, "calories": 43, "carbohydrates": 11}}, {"id": 44, "name": "Lime", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.1, "sugar": 1.7, "protein": 0.3, "calories": 25, "carbohydrates": 8.4}}, {"id": 47, "name": "Grapes", "genus": "Vitis", "order": "Vitales", "family": "Vitaceae", "nutritions": {"fat": 0.16, "sugar": 15.48, "protein": 0.72, "calories": 69, "carbohydrates": 18.1}}, {"id": 52, "name": "Persimmon", "genus": "Diospyros", "order": "Rosales", "family": "Ebenaceae", "nutritions": {"fat": 0, "sugar": 18, "protein": 0, "calories": 81, "carbohydrates": 18}}, {"id": 60, "name": "Durian", "genus": "Durio", "order": "Malvales", "family": "Malvaceae", "nutritions": {"fat": 5.3, "sugar": 6.75, "protein": 1.5, "calories": 147, "carbohydrates": 27.1}}, {"id": 64, "name": "Blackberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 4.5, "protein": 1.3, "calories": 40, "carbohydrates": 9}}, {"id": 65, "name": "Lingonberry", "genus": "Vaccinium", "order": "Ericales", "family": "Ericaceae", "nutritions": {"fat": 0.34, "sugar": 5.74, "protein": 0.75, "calories": 50, "carbohydrates": 11.3}}, {"id": 66, "name": "Kiwi", "genus": "Apteryx", "order": "Struthioniformes", "family": "Actinidiaceae", "nutritions": {"fat": 0.5, "sugar": 9, "protein": 1.1, "calories": 61, "carbohydrates": 15}}, {"id": 67, "name": "Lychee", "genus": "Litchi", "order": "Sapindales", "family": "Sapindaceae", "nutritions": {"fat": 0.44, "sugar": 15, "protein": 0.8, "calories": 66, "carbohydrates": 17}}, {"id": 68, "name": "Fig", "genus": "Ficus", "order": "Rosales", "family": "Moraceae", "nutritions": {"fat": 0.3, "sugar": 16, "protein": 0.8, "calories": 74, "carbohydrates": 19}}, {"id": 69, "name": "Gooseberry", "genus": "Ribes", "order": "Saxifragales", "family": "Grossulariaceae", "nutritions": {"fat": 0.6, "sugar": 0, "protein": 0.9, "calories": 44, "carbohydrates": 10}}, {"id": 70, "name": "Passionfruit", "genus": "Passiflora", "order": "Malpighiales", "family": "Passifloraceae", "nutritions": {"fat": 0.7, "sugar": 11.2, "protein": 2.2, "calories": 97, "carbohydrates": 22.4}}, {"id": 71, "name": "Plum", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.28, "sugar": 9.92, "protein": 0.7, "calories": 46, "carbohydrates": 11.4}}, {"id": 72, "name": "GreenApple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 6.4, "protein": 0.4, "calories": 21, "carbohydrates": 3.1}}, {"id": 73, "name": "Umbu", "genus": "Spondias", "order": "0", "family": "Anacardiaceae", "nutritions": {"fat": 0, "sugar": 0, "protein": 0, "calories": 0, "carbohydrates": 0}}, {"id": 74, "name": "Poopoo", "genus": "Uh oh", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}, {"id": 77, "name": "Poopoo", "genus": "Uh oh2", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}
+
+
+
+REQUEST TIME : Sat Feb 26 17:30:02 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh2", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 1, "name": "Banana", "genus": "Musa", "order": "Zingiberales", "family": "Musaceae", "nutritions": {"fat": 0.2, "sugar": 17.2, "protein": 1, "calories": 96, "carbohydrates": 22}}, {"id": 2, "name": "Orange", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.2, "sugar": 8.2, "protein": 1, "calories": 43, "carbohydrates": 8.3}}, {"id": 3, "name": "Strawberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0.8, "calories": 29, "carbohydrates": 5.5}}, {"id": 4, "name": "Pear", "genus": "Pyrus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 10, "protein": 0.4, "calories": 57, "carbohydrates": 15}}, {"id": 5, "name": "Tomato", "genus": "Solanum", "order": "Solanales", "family": "Solanaceae", "nutritions": {"fat": 0.2, "sugar": 2.6, "protein": 0.9, "calories": 74, "carbohydrates": 3.9}}, {"id": 6, "name": "Apple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 10.3, "protein": 0.3, "calories": 52, "carbohydrates": 11.4}}, {"id": 9, "name": "Cherry", "genus": "Prunus", "order": "None", "family": "Rosaceae", "nutritions": {"fat": 0.3, "sugar": 8, "protein": 1, "calories": 50, "carbohydrates": 12}}, {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}, {"id": 23, "name": "Raspberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.7, "sugar": 4.4, "protein": 1.2, "calories": 53, "carbohydrates": 12}}, {"id": 25, "name": "Watermelon", "genus": "Citrullus", "order": "Cucurbitales", "family": "Cucurbitaceae", "nutritions": {"fat": 0.2, "sugar": 6, "protein": 0.6, "calories": 30, "carbohydrates": 8}}, {"id": 26, "name": "Lemon", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.3, "sugar": 2.5, "protein": 1.1, "calories": 29, "carbohydrates": 9}}, {"id": 27, "name": "Mango", "genus": "Mangifera", "order": "Sapindales", "family": "Anacardiaceae", "nutritions": {"fat": 0.38, "sugar": 13.7, "protein": 0.82, "calories": 60, "carbohydrates": 15}}, {"id": 33, "name": "Blueberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0, "calories": 29, "carbohydrates": 5.5}}, {"id": 35, "name": "Apricot", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 3.2, "protein": 0.5, "calories": 15, "carbohydrates": 3.9}}, {"id": 37, "name": "Guava", "genus": "Psidium", "order": "Myrtales", "family": "Myrtaceae", "nutritions": {"fat": 1, "sugar": 9, "protein": 2.6, "calories": 68, "carbohydrates": 14}}, {"id": 41, "name": "Melon", "genus": "Cucumis", "order": "Cucurbitaceae", "family": "Cucurbitaceae", "nutritions": {"fat": 0, "sugar": 8, "protein": 0, "calories": 34, "carbohydrates": 8}}, {"id": 42, "name": "Papaya", "genus": "Carica", "order": "Caricacea", "family": "Caricaceae", "nutritions": {"fat": 0.4, "sugar": 1, "protein": 0, "calories": 43, "carbohydrates": 11}}, {"id": 44, "name": "Lime", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.1, "sugar": 1.7, "protein": 0.3, "calories": 25, "carbohydrates": 8.4}}, {"id": 47, "name": "Grapes", "genus": "Vitis", "order": "Vitales", "family": "Vitaceae", "nutritions": {"fat": 0.16, "sugar": 15.48, "protein": 0.72, "calories": 69, "carbohydrates": 18.1}}, {"id": 52, "name": "Persimmon", "genus": "Diospyros", "order": "Rosales", "family": "Ebenaceae", "nutritions": {"fat": 0, "sugar": 18, "protein": 0, "calories": 81, "carbohydrates": 18}}, {"id": 60, "name": "Durian", "genus": "Durio", "order": "Malvales", "family": "Malvaceae", "nutritions": {"fat": 5.3, "sugar": 6.75, "protein": 1.5, "calories": 147, "carbohydrates": 27.1}}, {"id": 64, "name": "Blackberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 4.5, "protein": 1.3, "calories": 40, "carbohydrates": 9}}, {"id": 65, "name": "Lingonberry", "genus": "Vaccinium", "order": "Ericales", "family": "Ericaceae", "nutritions": {"fat": 0.34, "sugar": 5.74, "protein": 0.75, "calories": 50, "carbohydrates": 11.3}}, {"id": 66, "name": "Kiwi", "genus": "Apteryx", "order": "Struthioniformes", "family": "Actinidiaceae", "nutritions": {"fat": 0.5, "sugar": 9, "protein": 1.1, "calories": 61, "carbohydrates": 15}}, {"id": 67, "name": "Lychee", "genus": "Litchi", "order": "Sapindales", "family": "Sapindaceae", "nutritions": {"fat": 0.44, "sugar": 15, "protein": 0.8, "calories": 66, "carbohydrates": 17}}, {"id": 68, "name": "Fig", "genus": "Ficus", "order": "Rosales", "family": "Moraceae", "nutritions": {"fat": 0.3, "sugar": 16, "protein": 0.8, "calories": 74, "carbohydrates": 19}}, {"id": 69, "name": "Gooseberry", "genus": "Ribes", "order": "Saxifragales", "family": "Grossulariaceae", "nutritions": {"fat": 0.6, "sugar": 0, "protein": 0.9, "calories": 44, "carbohydrates": 10}}, {"id": 70, "name": "Passionfruit", "genus": "Passiflora", "order": "Malpighiales", "family": "Passifloraceae", "nutritions": {"fat": 0.7, "sugar": 11.2, "protein": 2.2, "calories": 97, "carbohydrates": 22.4}}, {"id": 71, "name": "Plum", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.28, "sugar": 9.92, "protein": 0.7, "calories": 46, "carbohydrates": 11.4}}, {"id": 72, "name": "GreenApple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 6.4, "protein": 0.4, "calories": 21, "carbohydrates": 3.1}}, {"id": 73, "name": "Umbu", "genus": "Spondias", "order": "0", "family": "Anacardiaceae", "nutritions": {"fat": 0, "sugar": 0, "protein": 0, "calories": 0, "carbohydrates": 0}}, {"id": 74, "name": "Poopoo", "genus": "Uh oh", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}, {"id": 77, "name": "Poopoo", "genus": "Uh oh2", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}
+
+
+
+REQUEST TIME : Sat Feb 26 17:30:09 2022
+REQUEST METHOD : POST
+REQUEST URI : /fruit
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh2", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 400
+RESPONSE HEADERS :
+RESPONSE BODY : Bad request
+
+
+
+REQUEST TIME : Sat Feb 26 17:30:13 2022
+REQUEST METHOD : PUT
+REQUEST URI : /fruit
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh2", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 405
+RESPONSE HEADERS :
+RESPONSE BODY : Method not allowed
+
+
+
+REQUEST TIME : Sat Feb 26 17:30:15 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh2", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 1, "name": "Banana", "genus": "Musa", "order": "Zingiberales", "family": "Musaceae", "nutritions": {"fat": 0.2, "sugar": 17.2, "protein": 1, "calories": 96, "carbohydrates": 22}}, {"id": 2, "name": "Orange", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.2, "sugar": 8.2, "protein": 1, "calories": 43, "carbohydrates": 8.3}}, {"id": 3, "name": "Strawberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0.8, "calories": 29, "carbohydrates": 5.5}}, {"id": 4, "name": "Pear", "genus": "Pyrus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 10, "protein": 0.4, "calories": 57, "carbohydrates": 15}}, {"id": 5, "name": "Tomato", "genus": "Solanum", "order": "Solanales", "family": "Solanaceae", "nutritions": {"fat": 0.2, "sugar": 2.6, "protein": 0.9, "calories": 74, "carbohydrates": 3.9}}, {"id": 6, "name": "Apple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 10.3, "protein": 0.3, "calories": 52, "carbohydrates": 11.4}}, {"id": 9, "name": "Cherry", "genus": "Prunus", "order": "None", "family": "Rosaceae", "nutritions": {"fat": 0.3, "sugar": 8, "protein": 1, "calories": 50, "carbohydrates": 12}}, {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}, {"id": 23, "name": "Raspberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.7, "sugar": 4.4, "protein": 1.2, "calories": 53, "carbohydrates": 12}}, {"id": 25, "name": "Watermelon", "genus": "Citrullus", "order": "Cucurbitales", "family": "Cucurbitaceae", "nutritions": {"fat": 0.2, "sugar": 6, "protein": 0.6, "calories": 30, "carbohydrates": 8}}, {"id": 26, "name": "Lemon", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.3, "sugar": 2.5, "protein": 1.1, "calories": 29, "carbohydrates": 9}}, {"id": 27, "name": "Mango", "genus": "Mangifera", "order": "Sapindales", "family": "Anacardiaceae", "nutritions": {"fat": 0.38, "sugar": 13.7, "protein": 0.82, "calories": 60, "carbohydrates": 15}}, {"id": 33, "name": "Blueberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0, "calories": 29, "carbohydrates": 5.5}}, {"id": 35, "name": "Apricot", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 3.2, "protein": 0.5, "calories": 15, "carbohydrates": 3.9}}, {"id": 37, "name": "Guava", "genus": "Psidium", "order": "Myrtales", "family": "Myrtaceae", "nutritions": {"fat": 1, "sugar": 9, "protein": 2.6, "calories": 68, "carbohydrates": 14}}, {"id": 41, "name": "Melon", "genus": "Cucumis", "order": "Cucurbitaceae", "family": "Cucurbitaceae", "nutritions": {"fat": 0, "sugar": 8, "protein": 0, "calories": 34, "carbohydrates": 8}}, {"id": 42, "name": "Papaya", "genus": "Carica", "order": "Caricacea", "family": "Caricaceae", "nutritions": {"fat": 0.4, "sugar": 1, "protein": 0, "calories": 43, "carbohydrates": 11}}, {"id": 44, "name": "Lime", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.1, "sugar": 1.7, "protein": 0.3, "calories": 25, "carbohydrates": 8.4}}, {"id": 47, "name": "Grapes", "genus": "Vitis", "order": "Vitales", "family": "Vitaceae", "nutritions": {"fat": 0.16, "sugar": 15.48, "protein": 0.72, "calories": 69, "carbohydrates": 18.1}}, {"id": 52, "name": "Persimmon", "genus": "Diospyros", "order": "Rosales", "family": "Ebenaceae", "nutritions": {"fat": 0, "sugar": 18, "protein": 0, "calories": 81, "carbohydrates": 18}}, {"id": 60, "name": "Durian", "genus": "Durio", "order": "Malvales", "family": "Malvaceae", "nutritions": {"fat": 5.3, "sugar": 6.75, "protein": 1.5, "calories": 147, "carbohydrates": 27.1}}, {"id": 64, "name": "Blackberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 4.5, "protein": 1.3, "calories": 40, "carbohydrates": 9}}, {"id": 65, "name": "Lingonberry", "genus": "Vaccinium", "order": "Ericales", "family": "Ericaceae", "nutritions": {"fat": 0.34, "sugar": 5.74, "protein": 0.75, "calories": 50, "carbohydrates": 11.3}}, {"id": 66, "name": "Kiwi", "genus": "Apteryx", "order": "Struthioniformes", "family": "Actinidiaceae", "nutritions": {"fat": 0.5, "sugar": 9, "protein": 1.1, "calories": 61, "carbohydrates": 15}}, {"id": 67, "name": "Lychee", "genus": "Litchi", "order": "Sapindales", "family": "Sapindaceae", "nutritions": {"fat": 0.44, "sugar": 15, "protein": 0.8, "calories": 66, "carbohydrates": 17}}, {"id": 68, "name": "Fig", "genus": "Ficus", "order": "Rosales", "family": "Moraceae", "nutritions": {"fat": 0.3, "sugar": 16, "protein": 0.8, "calories": 74, "carbohydrates": 19}}, {"id": 69, "name": "Gooseberry", "genus": "Ribes", "order": "Saxifragales", "family": "Grossulariaceae", "nutritions": {"fat": 0.6, "sugar": 0, "protein": 0.9, "calories": 44, "carbohydrates": 10}}, {"id": 70, "name": "Passionfruit", "genus": "Passiflora", "order": "Malpighiales", "family": "Passifloraceae", "nutritions": {"fat": 0.7, "sugar": 11.2, "protein": 2.2, "calories": 97, "carbohydrates": 22.4}}, {"id": 71, "name": "Plum", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.28, "sugar": 9.92, "protein": 0.7, "calories": 46, "carbohydrates": 11.4}}, {"id": 72, "name": "GreenApple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 6.4, "protein": 0.4, "calories": 21, "carbohydrates": 3.1}}, {"id": 73, "name": "Umbu", "genus": "Spondias", "order": "0", "family": "Anacardiaceae", "nutritions": {"fat": 0, "sugar": 0, "protein": 0, "calories": 0, "carbohydrates": 0}}, {"id": 74, "name": "Poopoo", "genus": "Uh oh", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}, {"id": 77, "name": "Poopoo", "genus": "Uh oh2", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}
+
+
+
+REQUEST TIME : Sat Feb 26 19:38:26 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/10/
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh2", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+REQUEST TIME : Sat Feb 26 19:38:49 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/10/
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh2", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+REQUEST TIME : Sat Feb 26 19:38:49 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/10/
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh2", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+REQUEST TIME : Sat Feb 26 22:30:16 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh2", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sat Feb 26 22:30:19 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sat Feb 26 22:30:21 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 1, "name": "Banana", "genus": "Musa", "order": "Zingiberales", "family": "Musaceae", "nutritions": {"fat": 0.2, "sugar": 17.2, "protein": 1, "calories": 96, "carbohydrates": 22}}, {"id": 2, "name": "Orange", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.2, "sugar": 8.2, "protein": 1, "calories": 43, "carbohydrates": 8.3}}, {"id": 3, "name": "Strawberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0.8, "calories": 29, "carbohydrates": 5.5}}, {"id": 4, "name": "Pear", "genus": "Pyrus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 10, "protein": 0.4, "calories": 57, "carbohydrates": 15}}, {"id": 5, "name": "Tomato", "genus": "Solanum", "order": "Solanales", "family": "Solanaceae", "nutritions": {"fat": 0.2, "sugar": 2.6, "protein": 0.9, "calories": 74, "carbohydrates": 3.9}}, {"id": 6, "name": "Apple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 10.3, "protein": 0.3, "calories": 52, "carbohydrates": 11.4}}, {"id": 9, "name": "Cherry", "genus": "Prunus", "order": "None", "family": "Rosaceae", "nutritions": {"fat": 0.3, "sugar": 8, "protein": 1, "calories": 50, "carbohydrates": 12}}, {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}, {"id": 23, "name": "Raspberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.7, "sugar": 4.4, "protein": 1.2, "calories": 53, "carbohydrates": 12}}, {"id": 25, "name": "Watermelon", "genus": "Citrullus", "order": "Cucurbitales", "family": "Cucurbitaceae", "nutritions": {"fat": 0.2, "sugar": 6, "protein": 0.6, "calories": 30, "carbohydrates": 8}}, {"id": 26, "name": "Lemon", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.3, "sugar": 2.5, "protein": 1.1, "calories": 29, "carbohydrates": 9}}, {"id": 27, "name": "Mango", "genus": "Mangifera", "order": "Sapindales", "family": "Anacardiaceae", "nutritions": {"fat": 0.38, "sugar": 13.7, "protein": 0.82, "calories": 60, "carbohydrates": 15}}, {"id": 33, "name": "Blueberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0, "calories": 29, "carbohydrates": 5.5}}, {"id": 35, "name": "Apricot", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 3.2, "protein": 0.5, "calories": 15, "carbohydrates": 3.9}}, {"id": 37, "name": "Guava", "genus": "Psidium", "order": "Myrtales", "family": "Myrtaceae", "nutritions": {"fat": 1, "sugar": 9, "protein": 2.6, "calories": 68, "carbohydrates": 14}}, {"id": 41, "name": "Melon", "genus": "Cucumis", "order": "Cucurbitaceae", "family": "Cucurbitaceae", "nutritions": {"fat": 0, "sugar": 8, "protein": 0, "calories": 34, "carbohydrates": 8}}, {"id": 42, "name": "Papaya", "genus": "Carica", "order": "Caricacea", "family": "Caricaceae", "nutritions": {"fat": 0.4, "sugar": 1, "protein": 0, "calories": 43, "carbohydrates": 11}}, {"id": 44, "name": "Lime", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.1, "sugar": 1.7, "protein": 0.3, "calories": 25, "carbohydrates": 8.4}}, {"id": 47, "name": "Grapes", "genus": "Vitis", "order": "Vitales", "family": "Vitaceae", "nutritions": {"fat": 0.16, "sugar": 15.48, "protein": 0.72, "calories": 69, "carbohydrates": 18.1}}, {"id": 52, "name": "Persimmon", "genus": "Diospyros", "order": "Rosales", "family": "Ebenaceae", "nutritions": {"fat": 0, "sugar": 18, "protein": 0, "calories": 81, "carbohydrates": 18}}, {"id": 60, "name": "Durian", "genus": "Durio", "order": "Malvales", "family": "Malvaceae", "nutritions": {"fat": 5.3, "sugar": 6.75, "protein": 1.5, "calories": 147, "carbohydrates": 27.1}}, {"id": 64, "name": "Blackberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 4.5, "protein": 1.3, "calories": 40, "carbohydrates": 9}}, {"id": 65, "name": "Lingonberry", "genus": "Vaccinium", "order": "Ericales", "family": "Ericaceae", "nutritions": {"fat": 0.34, "sugar": 5.74, "protein": 0.75, "calories": 50, "carbohydrates": 11.3}}, {"id": 66, "name": "Kiwi", "genus": "Apteryx", "order": "Struthioniformes", "family": "Actinidiaceae", "nutritions": {"fat": 0.5, "sugar": 9, "protein": 1.1, "calories": 61, "carbohydrates": 15}}, {"id": 67, "name": "Lychee", "genus": "Litchi", "order": "Sapindales", "family": "Sapindaceae", "nutritions": {"fat": 0.44, "sugar": 15, "protein": 0.8, "calories": 66, "carbohydrates": 17}}, {"id": 68, "name": "Fig", "genus": "Ficus", "order": "Rosales", "family": "Moraceae", "nutritions": {"fat": 0.3, "sugar": 16, "protein": 0.8, "calories": 74, "carbohydrates": 19}}, {"id": 69, "name": "Gooseberry", "genus": "Ribes", "order": "Saxifragales", "family": "Grossulariaceae", "nutritions": {"fat": 0.6, "sugar": 0, "protein": 0.9, "calories": 44, "carbohydrates": 10}}, {"id": 70, "name": "Passionfruit", "genus": "Passiflora", "order": "Malpighiales", "family": "Passifloraceae", "nutritions": {"fat": 0.7, "sugar": 11.2, "protein": 2.2, "calories": 97, "carbohydrates": 22.4}}, {"id": 71, "name": "Plum", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.28, "sugar": 9.92, "protein": 0.7, "calories": 46, "carbohydrates": 11.4}}, {"id": 72, "name": "GreenApple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 6.4, "protein": 0.4, "calories": 21, "carbohydrates": 3.1}}, {"id": 73, "name": "Umbu", "genus": "Spondias", "order": "0", "family": "Anacardiaceae", "nutritions": {"fat": 0, "sugar": 0, "protein": 0, "calories": 0, "carbohydrates": 0}}, {"id": 74, "name": "Poopoo", "genus": "Uh oh", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}, {"id": 77, "name": "Poopoo", "genus": "Uh oh2", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}
+
+
+
+REQUEST TIME : Sat Feb 26 22:30:24 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/10
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}
+
+
+
+REQUEST TIME : Sat Feb 26 22:30:25 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/10
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}
+
+
+
+REQUEST TIME : Sat Feb 26 22:30:28 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/12
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sat Feb 26 22:30:31 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/11
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sat Feb 26 22:30:33 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/13
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sat Feb 26 22:30:35 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/14
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sat Feb 26 22:30:38 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/15
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sat Feb 26 22:30:40 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/16
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sat Feb 26 22:30:47 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/1
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 1, "name": "Banana", "genus": "Musa", "order": "Zingiberales", "family": "Musaceae", "nutritions": {"fat": 0.2, "sugar": 17.2, "protein": 1, "calories": 96, "carbohydrates": 22}}
+
+
+
+REQUEST TIME : Sat Feb 26 22:30:51 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sat Feb 26 22:31:46 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/6
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 6, "name": "Apple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 10.3, "protein": 0.3, "calories": 52, "carbohydrates": 11.4}}
+
+
+
+REQUEST TIME : Sat Feb 26 22:33:45 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 1, "name": "Banana", "genus": "Musa", "order": "Zingiberales", "family": "Musaceae", "nutritions": {"fat": 0.2, "sugar": 17.2, "protein": 1, "calories": 96, "carbohydrates": 22}}, {"id": 2, "name": "Orange", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.2, "sugar": 8.2, "protein": 1, "calories": 43, "carbohydrates": 8.3}}, {"id": 3, "name": "Strawberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0.8, "calories": 29, "carbohydrates": 5.5}}, {"id": 4, "name": "Pear", "genus": "Pyrus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 10, "protein": 0.4, "calories": 57, "carbohydrates": 15}}, {"id": 5, "name": "Tomato", "genus": "Solanum", "order": "Solanales", "family": "Solanaceae", "nutritions": {"fat": 0.2, "sugar": 2.6, "protein": 0.9, "calories": 74, "carbohydrates": 3.9}}, {"id": 6, "name": "Apple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 10.3, "protein": 0.3, "calories": 52, "carbohydrates": 11.4}}, {"id": 9, "name": "Cherry", "genus": "Prunus", "order": "None", "family": "Rosaceae", "nutritions": {"fat": 0.3, "sugar": 8, "protein": 1, "calories": 50, "carbohydrates": 12}}, {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}, {"id": 23, "name": "Raspberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.7, "sugar": 4.4, "protein": 1.2, "calories": 53, "carbohydrates": 12}}, {"id": 25, "name": "Watermelon", "genus": "Citrullus", "order": "Cucurbitales", "family": "Cucurbitaceae", "nutritions": {"fat": 0.2, "sugar": 6, "protein": 0.6, "calories": 30, "carbohydrates": 8}}, {"id": 26, "name": "Lemon", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.3, "sugar": 2.5, "protein": 1.1, "calories": 29, "carbohydrates": 9}}, {"id": 27, "name": "Mango", "genus": "Mangifera", "order": "Sapindales", "family": "Anacardiaceae", "nutritions": {"fat": 0.38, "sugar": 13.7, "protein": 0.82, "calories": 60, "carbohydrates": 15}}, {"id": 33, "name": "Blueberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0, "calories": 29, "carbohydrates": 5.5}}, {"id": 35, "name": "Apricot", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 3.2, "protein": 0.5, "calories": 15, "carbohydrates": 3.9}}, {"id": 37, "name": "Guava", "genus": "Psidium", "order": "Myrtales", "family": "Myrtaceae", "nutritions": {"fat": 1, "sugar": 9, "protein": 2.6, "calories": 68, "carbohydrates": 14}}, {"id": 41, "name": "Melon", "genus": "Cucumis", "order": "Cucurbitaceae", "family": "Cucurbitaceae", "nutritions": {"fat": 0, "sugar": 8, "protein": 0, "calories": 34, "carbohydrates": 8}}, {"id": 42, "name": "Papaya", "genus": "Carica", "order": "Caricacea", "family": "Caricaceae", "nutritions": {"fat": 0.4, "sugar": 1, "protein": 0, "calories": 43, "carbohydrates": 11}}, {"id": 44, "name": "Lime", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.1, "sugar": 1.7, "protein": 0.3, "calories": 25, "carbohydrates": 8.4}}, {"id": 47, "name": "Grapes", "genus": "Vitis", "order": "Vitales", "family": "Vitaceae", "nutritions": {"fat": 0.16, "sugar": 15.48, "protein": 0.72, "calories": 69, "carbohydrates": 18.1}}, {"id": 52, "name": "Persimmon", "genus": "Diospyros", "order": "Rosales", "family": "Ebenaceae", "nutritions": {"fat": 0, "sugar": 18, "protein": 0, "calories": 81, "carbohydrates": 18}}, {"id": 60, "name": "Durian", "genus": "Durio", "order": "Malvales", "family": "Malvaceae", "nutritions": {"fat": 5.3, "sugar": 6.75, "protein": 1.5, "calories": 147, "carbohydrates": 27.1}}, {"id": 64, "name": "Blackberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 4.5, "protein": 1.3, "calories": 40, "carbohydrates": 9}}, {"id": 65, "name": "Lingonberry", "genus": "Vaccinium", "order": "Ericales", "family": "Ericaceae", "nutritions": {"fat": 0.34, "sugar": 5.74, "protein": 0.75, "calories": 50, "carbohydrates": 11.3}}, {"id": 66, "name": "Kiwi", "genus": "Apteryx", "order": "Struthioniformes", "family": "Actinidiaceae", "nutritions": {"fat": 0.5, "sugar": 9, "protein": 1.1, "calories": 61, "carbohydrates": 15}}, {"id": 67, "name": "Lychee", "genus": "Litchi", "order": "Sapindales", "family": "Sapindaceae", "nutritions": {"fat": 0.44, "sugar": 15, "protein": 0.8, "calories": 66, "carbohydrates": 17}}, {"id": 68, "name": "Fig", "genus": "Ficus", "order": "Rosales", "family": "Moraceae", "nutritions": {"fat": 0.3, "sugar": 16, "protein": 0.8, "calories": 74, "carbohydrates": 19}}, {"id": 69, "name": "Gooseberry", "genus": "Ribes", "order": "Saxifragales", "family": "Grossulariaceae", "nutritions": {"fat": 0.6, "sugar": 0, "protein": 0.9, "calories": 44, "carbohydrates": 10}}, {"id": 70, "name": "Passionfruit", "genus": "Passiflora", "order": "Malpighiales", "family": "Passifloraceae", "nutritions": {"fat": 0.7, "sugar": 11.2, "protein": 2.2, "calories": 97, "carbohydrates": 22.4}}, {"id": 71, "name": "Plum", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.28, "sugar": 9.92, "protein": 0.7, "calories": 46, "carbohydrates": 11.4}}, {"id": 72, "name": "GreenApple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 6.4, "protein": 0.4, "calories": 21, "carbohydrates": 3.1}}, {"id": 73, "name": "Umbu", "genus": "Spondias", "order": "0", "family": "Anacardiaceae", "nutritions": {"fat": 0, "sugar": 0, "protein": 0, "calories": 0, "carbohydrates": 0}}, {"id": 74, "name": "Poopoo", "genus": "Uh oh", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}, {"id": 77, "name": "Poopoo", "genus": "Uh oh2", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}
+
+
+
+REQUEST TIME : Sat Feb 26 22:33:48 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/6
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 6, "name": "Apple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 10.3, "protein": 0.3, "calories": 52, "carbohydrates": 11.4}}
+
+
+
+REQUEST TIME : Sat Feb 26 22:33:50 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/7
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sat Feb 26 22:33:53 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/8
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sat Feb 26 22:33:55 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/10
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}
+
+
+
+REQUEST TIME : Sat Feb 26 22:33:58 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 1, "name": "Banana", "genus": "Musa", "order": "Zingiberales", "family": "Musaceae", "nutritions": {"fat": 0.2, "sugar": 17.2, "protein": 1, "calories": 96, "carbohydrates": 22}}, {"id": 2, "name": "Orange", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.2, "sugar": 8.2, "protein": 1, "calories": 43, "carbohydrates": 8.3}}, {"id": 3, "name": "Strawberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0.8, "calories": 29, "carbohydrates": 5.5}}, {"id": 4, "name": "Pear", "genus": "Pyrus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 10, "protein": 0.4, "calories": 57, "carbohydrates": 15}}, {"id": 5, "name": "Tomato", "genus": "Solanum", "order": "Solanales", "family": "Solanaceae", "nutritions": {"fat": 0.2, "sugar": 2.6, "protein": 0.9, "calories": 74, "carbohydrates": 3.9}}, {"id": 6, "name": "Apple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 10.3, "protein": 0.3, "calories": 52, "carbohydrates": 11.4}}, {"id": 9, "name": "Cherry", "genus": "Prunus", "order": "None", "family": "Rosaceae", "nutritions": {"fat": 0.3, "sugar": 8, "protein": 1, "calories": 50, "carbohydrates": 12}}, {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}, {"id": 23, "name": "Raspberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.7, "sugar": 4.4, "protein": 1.2, "calories": 53, "carbohydrates": 12}}, {"id": 25, "name": "Watermelon", "genus": "Citrullus", "order": "Cucurbitales", "family": "Cucurbitaceae", "nutritions": {"fat": 0.2, "sugar": 6, "protein": 0.6, "calories": 30, "carbohydrates": 8}}, {"id": 26, "name": "Lemon", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.3, "sugar": 2.5, "protein": 1.1, "calories": 29, "carbohydrates": 9}}, {"id": 27, "name": "Mango", "genus": "Mangifera", "order": "Sapindales", "family": "Anacardiaceae", "nutritions": {"fat": 0.38, "sugar": 13.7, "protein": 0.82, "calories": 60, "carbohydrates": 15}}, {"id": 33, "name": "Blueberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0, "calories": 29, "carbohydrates": 5.5}}, {"id": 35, "name": "Apricot", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 3.2, "protein": 0.5, "calories": 15, "carbohydrates": 3.9}}, {"id": 37, "name": "Guava", "genus": "Psidium", "order": "Myrtales", "family": "Myrtaceae", "nutritions": {"fat": 1, "sugar": 9, "protein": 2.6, "calories": 68, "carbohydrates": 14}}, {"id": 41, "name": "Melon", "genus": "Cucumis", "order": "Cucurbitaceae", "family": "Cucurbitaceae", "nutritions": {"fat": 0, "sugar": 8, "protein": 0, "calories": 34, "carbohydrates": 8}}, {"id": 42, "name": "Papaya", "genus": "Carica", "order": "Caricacea", "family": "Caricaceae", "nutritions": {"fat": 0.4, "sugar": 1, "protein": 0, "calories": 43, "carbohydrates": 11}}, {"id": 44, "name": "Lime", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.1, "sugar": 1.7, "protein": 0.3, "calories": 25, "carbohydrates": 8.4}}, {"id": 47, "name": "Grapes", "genus": "Vitis", "order": "Vitales", "family": "Vitaceae", "nutritions": {"fat": 0.16, "sugar": 15.48, "protein": 0.72, "calories": 69, "carbohydrates": 18.1}}, {"id": 52, "name": "Persimmon", "genus": "Diospyros", "order": "Rosales", "family": "Ebenaceae", "nutritions": {"fat": 0, "sugar": 18, "protein": 0, "calories": 81, "carbohydrates": 18}}, {"id": 60, "name": "Durian", "genus": "Durio", "order": "Malvales", "family": "Malvaceae", "nutritions": {"fat": 5.3, "sugar": 6.75, "protein": 1.5, "calories": 147, "carbohydrates": 27.1}}, {"id": 64, "name": "Blackberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 4.5, "protein": 1.3, "calories": 40, "carbohydrates": 9}}, {"id": 65, "name": "Lingonberry", "genus": "Vaccinium", "order": "Ericales", "family": "Ericaceae", "nutritions": {"fat": 0.34, "sugar": 5.74, "protein": 0.75, "calories": 50, "carbohydrates": 11.3}}, {"id": 66, "name": "Kiwi", "genus": "Apteryx", "order": "Struthioniformes", "family": "Actinidiaceae", "nutritions": {"fat": 0.5, "sugar": 9, "protein": 1.1, "calories": 61, "carbohydrates": 15}}, {"id": 67, "name": "Lychee", "genus": "Litchi", "order": "Sapindales", "family": "Sapindaceae", "nutritions": {"fat": 0.44, "sugar": 15, "protein": 0.8, "calories": 66, "carbohydrates": 17}}, {"id": 68, "name": "Fig", "genus": "Ficus", "order": "Rosales", "family": "Moraceae", "nutritions": {"fat": 0.3, "sugar": 16, "protein": 0.8, "calories": 74, "carbohydrates": 19}}, {"id": 69, "name": "Gooseberry", "genus": "Ribes", "order": "Saxifragales", "family": "Grossulariaceae", "nutritions": {"fat": 0.6, "sugar": 0, "protein": 0.9, "calories": 44, "carbohydrates": 10}}, {"id": 70, "name": "Passionfruit", "genus": "Passiflora", "order": "Malpighiales", "family": "Passifloraceae", "nutritions": {"fat": 0.7, "sugar": 11.2, "protein": 2.2, "calories": 97, "carbohydrates": 22.4}}, {"id": 71, "name": "Plum", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.28, "sugar": 9.92, "protein": 0.7, "calories": 46, "carbohydrates": 11.4}}, {"id": 72, "name": "GreenApple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 6.4, "protein": 0.4, "calories": 21, "carbohydrates": 3.1}}, {"id": 73, "name": "Umbu", "genus": "Spondias", "order": "0", "family": "Anacardiaceae", "nutritions": {"fat": 0, "sugar": 0, "protein": 0, "calories": 0, "carbohydrates": 0}}, {"id": 74, "name": "Poopoo", "genus": "Uh oh", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}, {"id": 77, "name": "Poopoo", "genus": "Uh oh2", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}
+
+
+
+REQUEST TIME : Sat Feb 26 22:34:09 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/9
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 9, "name": "Cherry", "genus": "Prunus", "order": "None", "family": "Rosaceae", "nutritions": {"fat": 0.3, "sugar": 8, "protein": 1, "calories": 50, "carbohydrates": 12}}
+
+
+
+REQUEST TIME : Sat Feb 26 22:38:03 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 1, "name": "Banana", "genus": "Musa", "order": "Zingiberales", "family": "Musaceae", "nutritions": {"fat": 0.2, "sugar": 17.2, "protein": 1, "calories": 96, "carbohydrates": 22}}, {"id": 2, "name": "Orange", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.2, "sugar": 8.2, "protein": 1, "calories": 43, "carbohydrates": 8.3}}, {"id": 3, "name": "Strawberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0.8, "calories": 29, "carbohydrates": 5.5}}, {"id": 4, "name": "Pear", "genus": "Pyrus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 10, "protein": 0.4, "calories": 57, "carbohydrates": 15}}, {"id": 5, "name": "Tomato", "genus": "Solanum", "order": "Solanales", "family": "Solanaceae", "nutritions": {"fat": 0.2, "sugar": 2.6, "protein": 0.9, "calories": 74, "carbohydrates": 3.9}}, {"id": 6, "name": "Apple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 10.3, "protein": 0.3, "calories": 52, "carbohydrates": 11.4}}, {"id": 9, "name": "Cherry", "genus": "Prunus", "order": "None", "family": "Rosaceae", "nutritions": {"fat": 0.3, "sugar": 8, "protein": 1, "calories": 50, "carbohydrates": 12}}, {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}, {"id": 23, "name": "Raspberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.7, "sugar": 4.4, "protein": 1.2, "calories": 53, "carbohydrates": 12}}, {"id": 25, "name": "Watermelon", "genus": "Citrullus", "order": "Cucurbitales", "family": "Cucurbitaceae", "nutritions": {"fat": 0.2, "sugar": 6, "protein": 0.6, "calories": 30, "carbohydrates": 8}}, {"id": 26, "name": "Lemon", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.3, "sugar": 2.5, "protein": 1.1, "calories": 29, "carbohydrates": 9}}, {"id": 27, "name": "Mango", "genus": "Mangifera", "order": "Sapindales", "family": "Anacardiaceae", "nutritions": {"fat": 0.38, "sugar": 13.7, "protein": 0.82, "calories": 60, "carbohydrates": 15}}, {"id": 33, "name": "Blueberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0, "calories": 29, "carbohydrates": 5.5}}, {"id": 35, "name": "Apricot", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 3.2, "protein": 0.5, "calories": 15, "carbohydrates": 3.9}}, {"id": 37, "name": "Guava", "genus": "Psidium", "order": "Myrtales", "family": "Myrtaceae", "nutritions": {"fat": 1, "sugar": 9, "protein": 2.6, "calories": 68, "carbohydrates": 14}}, {"id": 41, "name": "Melon", "genus": "Cucumis", "order": "Cucurbitaceae", "family": "Cucurbitaceae", "nutritions": {"fat": 0, "sugar": 8, "protein": 0, "calories": 34, "carbohydrates": 8}}, {"id": 42, "name": "Papaya", "genus": "Carica", "order": "Caricacea", "family": "Caricaceae", "nutritions": {"fat": 0.4, "sugar": 1, "protein": 0, "calories": 43, "carbohydrates": 11}}, {"id": 44, "name": "Lime", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.1, "sugar": 1.7, "protein": 0.3, "calories": 25, "carbohydrates": 8.4}}, {"id": 47, "name": "Grapes", "genus": "Vitis", "order": "Vitales", "family": "Vitaceae", "nutritions": {"fat": 0.16, "sugar": 15.48, "protein": 0.72, "calories": 69, "carbohydrates": 18.1}}, {"id": 52, "name": "Persimmon", "genus": "Diospyros", "order": "Rosales", "family": "Ebenaceae", "nutritions": {"fat": 0, "sugar": 18, "protein": 0, "calories": 81, "carbohydrates": 18}}, {"id": 60, "name": "Durian", "genus": "Durio", "order": "Malvales", "family": "Malvaceae", "nutritions": {"fat": 5.3, "sugar": 6.75, "protein": 1.5, "calories": 147, "carbohydrates": 27.1}}, {"id": 64, "name": "Blackberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 4.5, "protein": 1.3, "calories": 40, "carbohydrates": 9}}, {"id": 65, "name": "Lingonberry", "genus": "Vaccinium", "order": "Ericales", "family": "Ericaceae", "nutritions": {"fat": 0.34, "sugar": 5.74, "protein": 0.75, "calories": 50, "carbohydrates": 11.3}}, {"id": 66, "name": "Kiwi", "genus": "Apteryx", "order": "Struthioniformes", "family": "Actinidiaceae", "nutritions": {"fat": 0.5, "sugar": 9, "protein": 1.1, "calories": 61, "carbohydrates": 15}}, {"id": 67, "name": "Lychee", "genus": "Litchi", "order": "Sapindales", "family": "Sapindaceae", "nutritions": {"fat": 0.44, "sugar": 15, "protein": 0.8, "calories": 66, "carbohydrates": 17}}, {"id": 68, "name": "Fig", "genus": "Ficus", "order": "Rosales", "family": "Moraceae", "nutritions": {"fat": 0.3, "sugar": 16, "protein": 0.8, "calories": 74, "carbohydrates": 19}}, {"id": 69, "name": "Gooseberry", "genus": "Ribes", "order": "Saxifragales", "family": "Grossulariaceae", "nutritions": {"fat": 0.6, "sugar": 0, "protein": 0.9, "calories": 44, "carbohydrates": 10}}, {"id": 70, "name": "Passionfruit", "genus": "Passiflora", "order": "Malpighiales", "family": "Passifloraceae", "nutritions": {"fat": 0.7, "sugar": 11.2, "protein": 2.2, "calories": 97, "carbohydrates": 22.4}}, {"id": 71, "name": "Plum", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.28, "sugar": 9.92, "protein": 0.7, "calories": 46, "carbohydrates": 11.4}}, {"id": 72, "name": "GreenApple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 6.4, "protein": 0.4, "calories": 21, "carbohydrates": 3.1}}, {"id": 73, "name": "Umbu", "genus": "Spondias", "order": "0", "family": "Anacardiaceae", "nutritions": {"fat": 0, "sugar": 0, "protein": 0, "calories": 0, "carbohydrates": 0}}, {"id": 74, "name": "Poopoo", "genus": "Uh oh", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}, {"id": 77, "name": "Poopoo", "genus": "Uh oh2", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}
+
+
+
+REQUEST TIME : Sat Feb 26 22:38:05 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/10
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 0
+REQUEST BODY :
+
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}
+
+
+
+REQUEST TIME : Sat Feb 26 22:38:14 2022
+REQUEST METHOD : POST
+REQUEST URI : /fruit/10
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+REQUEST TIME : Sat Feb 26 22:38:25 2022
+REQUEST METHOD : POST
+REQUEST URI : /fruit/
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 1, "name": "Banana", "genus": "Musa", "order": "Zingiberales", "family": "Musaceae", "nutritions": {"fat": 0.2, "sugar": 17.2, "protein": 1, "calories": 96, "carbohydrates": 22}}, {"id": 2, "name": "Orange", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.2, "sugar": 8.2, "protein": 1, "calories": 43, "carbohydrates": 8.3}}, {"id": 3, "name": "Strawberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0.8, "calories": 29, "carbohydrates": 5.5}}, {"id": 4, "name": "Pear", "genus": "Pyrus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 10, "protein": 0.4, "calories": 57, "carbohydrates": 15}}, {"id": 5, "name": "Tomato", "genus": "Solanum", "order": "Solanales", "family": "Solanaceae", "nutritions": {"fat": 0.2, "sugar": 2.6, "protein": 0.9, "calories": 74, "carbohydrates": 3.9}}, {"id": 6, "name": "Apple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 10.3, "protein": 0.3, "calories": 52, "carbohydrates": 11.4}}, {"id": 9, "name": "Cherry", "genus": "Prunus", "order": "None", "family": "Rosaceae", "nutritions": {"fat": 0.3, "sugar": 8, "protein": 1, "calories": 50, "carbohydrates": 12}}, {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}, {"id": 23, "name": "Raspberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.7, "sugar": 4.4, "protein": 1.2, "calories": 53, "carbohydrates": 12}}, {"id": 25, "name": "Watermelon", "genus": "Citrullus", "order": "Cucurbitales", "family": "Cucurbitaceae", "nutritions": {"fat": 0.2, "sugar": 6, "protein": 0.6, "calories": 30, "carbohydrates": 8}}, {"id": 26, "name": "Lemon", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.3, "sugar": 2.5, "protein": 1.1, "calories": 29, "carbohydrates": 9}}, {"id": 27, "name": "Mango", "genus": "Mangifera", "order": "Sapindales", "family": "Anacardiaceae", "nutritions": {"fat": 0.38, "sugar": 13.7, "protein": 0.82, "calories": 60, "carbohydrates": 15}}, {"id": 33, "name": "Blueberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0, "calories": 29, "carbohydrates": 5.5}}, {"id": 35, "name": "Apricot", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 3.2, "protein": 0.5, "calories": 15, "carbohydrates": 3.9}}, {"id": 37, "name": "Guava", "genus": "Psidium", "order": "Myrtales", "family": "Myrtaceae", "nutritions": {"fat": 1, "sugar": 9, "protein": 2.6, "calories": 68, "carbohydrates": 14}}, {"id": 41, "name": "Melon", "genus": "Cucumis", "order": "Cucurbitaceae", "family": "Cucurbitaceae", "nutritions": {"fat": 0, "sugar": 8, "protein": 0, "calories": 34, "carbohydrates": 8}}, {"id": 42, "name": "Papaya", "genus": "Carica", "order": "Caricacea", "family": "Caricaceae", "nutritions": {"fat": 0.4, "sugar": 1, "protein": 0, "calories": 43, "carbohydrates": 11}}, {"id": 44, "name": "Lime", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.1, "sugar": 1.7, "protein": 0.3, "calories": 25, "carbohydrates": 8.4}}, {"id": 47, "name": "Grapes", "genus": "Vitis", "order": "Vitales", "family": "Vitaceae", "nutritions": {"fat": 0.16, "sugar": 15.48, "protein": 0.72, "calories": 69, "carbohydrates": 18.1}}, {"id": 52, "name": "Persimmon", "genus": "Diospyros", "order": "Rosales", "family": "Ebenaceae", "nutritions": {"fat": 0, "sugar": 18, "protein": 0, "calories": 81, "carbohydrates": 18}}, {"id": 60, "name": "Durian", "genus": "Durio", "order": "Malvales", "family": "Malvaceae", "nutritions": {"fat": 5.3, "sugar": 6.75, "protein": 1.5, "calories": 147, "carbohydrates": 27.1}}, {"id": 64, "name": "Blackberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 4.5, "protein": 1.3, "calories": 40, "carbohydrates": 9}}, {"id": 65, "name": "Lingonberry", "genus": "Vaccinium", "order": "Ericales", "family": "Ericaceae", "nutritions": {"fat": 0.34, "sugar": 5.74, "protein": 0.75, "calories": 50, "carbohydrates": 11.3}}, {"id": 66, "name": "Kiwi", "genus": "Apteryx", "order": "Struthioniformes", "family": "Actinidiaceae", "nutritions": {"fat": 0.5, "sugar": 9, "protein": 1.1, "calories": 61, "carbohydrates": 15}}, {"id": 67, "name": "Lychee", "genus": "Litchi", "order": "Sapindales", "family": "Sapindaceae", "nutritions": {"fat": 0.44, "sugar": 15, "protein": 0.8, "calories": 66, "carbohydrates": 17}}, {"id": 68, "name": "Fig", "genus": "Ficus", "order": "Rosales", "family": "Moraceae", "nutritions": {"fat": 0.3, "sugar": 16, "protein": 0.8, "calories": 74, "carbohydrates": 19}}, {"id": 69, "name": "Gooseberry", "genus": "Ribes", "order": "Saxifragales", "family": "Grossulariaceae", "nutritions": {"fat": 0.6, "sugar": 0, "protein": 0.9, "calories": 44, "carbohydrates": 10}}, {"id": 70, "name": "Passionfruit", "genus": "Passiflora", "order": "Malpighiales", "family": "Passifloraceae", "nutritions": {"fat": 0.7, "sugar": 11.2, "protein": 2.2, "calories": 97, "carbohydrates": 22.4}}, {"id": 71, "name": "Plum", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.28, "sugar": 9.92, "protein": 0.7, "calories": 46, "carbohydrates": 11.4}}, {"id": 72, "name": "GreenApple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 6.4, "protein": 0.4, "calories": 21, "carbohydrates": 3.1}}, {"id": 73, "name": "Umbu", "genus": "Spondias", "order": "0", "family": "Anacardiaceae", "nutritions": {"fat": 0, "sugar": 0, "protein": 0, "calories": 0, "carbohydrates": 0}}, {"id": 74, "name": "Poopoo", "genus": "Uh oh", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}, {"id": 77, "name": "Poopoo", "genus": "Uh oh2", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}, {"id": 79, "name": "Poopoo", "genus": "Uh oh3", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}
+
+
+
+REQUEST TIME : Sun Feb 27 00:34:02 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 1, "name": "Banana", "genus": "Musa", "order": "Zingiberales", "family": "Musaceae", "nutritions": {"fat": 0.2, "sugar": 17.2, "protein": 1, "calories": 96, "carbohydrates": 22}}, {"id": 2, "name": "Orange", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.2, "sugar": 8.2, "protein": 1, "calories": 43, "carbohydrates": 8.3}}, {"id": 3, "name": "Strawberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0.8, "calories": 29, "carbohydrates": 5.5}}, {"id": 4, "name": "Pear", "genus": "Pyrus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 10, "protein": 0.4, "calories": 57, "carbohydrates": 15}}, {"id": 5, "name": "Tomato", "genus": "Solanum", "order": "Solanales", "family": "Solanaceae", "nutritions": {"fat": 0.2, "sugar": 2.6, "protein": 0.9, "calories": 74, "carbohydrates": 3.9}}, {"id": 6, "name": "Apple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 10.3, "protein": 0.3, "calories": 52, "carbohydrates": 11.4}}, {"id": 9, "name": "Cherry", "genus": "Prunus", "order": "None", "family": "Rosaceae", "nutritions": {"fat": 0.3, "sugar": 8, "protein": 1, "calories": 50, "carbohydrates": 12}}, {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}, {"id": 23, "name": "Raspberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.7, "sugar": 4.4, "protein": 1.2, "calories": 53, "carbohydrates": 12}}, {"id": 25, "name": "Watermelon", "genus": "Citrullus", "order": "Cucurbitales", "family": "Cucurbitaceae", "nutritions": {"fat": 0.2, "sugar": 6, "protein": 0.6, "calories": 30, "carbohydrates": 8}}, {"id": 26, "name": "Lemon", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.3, "sugar": 2.5, "protein": 1.1, "calories": 29, "carbohydrates": 9}}, {"id": 27, "name": "Mango", "genus": "Mangifera", "order": "Sapindales", "family": "Anacardiaceae", "nutritions": {"fat": 0.38, "sugar": 13.7, "protein": 0.82, "calories": 60, "carbohydrates": 15}}, {"id": 33, "name": "Blueberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0, "calories": 29, "carbohydrates": 5.5}}, {"id": 35, "name": "Apricot", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 3.2, "protein": 0.5, "calories": 15, "carbohydrates": 3.9}}, {"id": 37, "name": "Guava", "genus": "Psidium", "order": "Myrtales", "family": "Myrtaceae", "nutritions": {"fat": 1, "sugar": 9, "protein": 2.6, "calories": 68, "carbohydrates": 14}}, {"id": 41, "name": "Melon", "genus": "Cucumis", "order": "Cucurbitaceae", "family": "Cucurbitaceae", "nutritions": {"fat": 0, "sugar": 8, "protein": 0, "calories": 34, "carbohydrates": 8}}, {"id": 42, "name": "Papaya", "genus": "Carica", "order": "Caricacea", "family": "Caricaceae", "nutritions": {"fat": 0.4, "sugar": 1, "protein": 0, "calories": 43, "carbohydrates": 11}}, {"id": 44, "name": "Lime", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.1, "sugar": 1.7, "protein": 0.3, "calories": 25, "carbohydrates": 8.4}}, {"id": 47, "name": "Grapes", "genus": "Vitis", "order": "Vitales", "family": "Vitaceae", "nutritions": {"fat": 0.16, "sugar": 15.48, "protein": 0.72, "calories": 69, "carbohydrates": 18.1}}, {"id": 52, "name": "Persimmon", "genus": "Diospyros", "order": "Rosales", "family": "Ebenaceae", "nutritions": {"fat": 0, "sugar": 18, "protein": 0, "calories": 81, "carbohydrates": 18}}, {"id": 60, "name": "Durian", "genus": "Durio", "order": "Malvales", "family": "Malvaceae", "nutritions": {"fat": 5.3, "sugar": 6.75, "protein": 1.5, "calories": 147, "carbohydrates": 27.1}}, {"id": 64, "name": "Blackberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 4.5, "protein": 1.3, "calories": 40, "carbohydrates": 9}}, {"id": 65, "name": "Lingonberry", "genus": "Vaccinium", "order": "Ericales", "family": "Ericaceae", "nutritions": {"fat": 0.34, "sugar": 5.74, "protein": 0.75, "calories": 50, "carbohydrates": 11.3}}, {"id": 66, "name": "Kiwi", "genus": "Apteryx", "order": "Struthioniformes", "family": "Actinidiaceae", "nutritions": {"fat": 0.5, "sugar": 9, "protein": 1.1, "calories": 61, "carbohydrates": 15}}, {"id": 67, "name": "Lychee", "genus": "Litchi", "order": "Sapindales", "family": "Sapindaceae", "nutritions": {"fat": 0.44, "sugar": 15, "protein": 0.8, "calories": 66, "carbohydrates": 17}}, {"id": 68, "name": "Fig", "genus": "Ficus", "order": "Rosales", "family": "Moraceae", "nutritions": {"fat": 0.3, "sugar": 16, "protein": 0.8, "calories": 74, "carbohydrates": 19}}, {"id": 69, "name": "Gooseberry", "genus": "Ribes", "order": "Saxifragales", "family": "Grossulariaceae", "nutritions": {"fat": 0.6, "sugar": 0, "protein": 0.9, "calories": 44, "carbohydrates": 10}}, {"id": 70, "name": "Passionfruit", "genus": "Passiflora", "order": "Malpighiales", "family": "Passifloraceae", "nutritions": {"fat": 0.7, "sugar": 11.2, "protein": 2.2, "calories": 97, "carbohydrates": 22.4}}, {"id": 71, "name": "Plum", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.28, "sugar": 9.92, "protein": 0.7, "calories": 46, "carbohydrates": 11.4}}, {"id": 72, "name": "GreenApple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 6.4, "protein": 0.4, "calories": 21, "carbohydrates": 3.1}}, {"id": 73, "name": "Umbu", "genus": "Spondias", "order": "0", "family": "Anacardiaceae", "nutritions": {"fat": 0, "sugar": 0, "protein": 0, "calories": 0, "carbohydrates": 0}}, {"id": 74, "name": "Poopoo", "genus": "Uh oh", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}, {"id": 77, "name": "Poopoo", "genus": "Uh oh2", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}, {"id": 79, "name": "Poopoo", "genus": "Uh oh3", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}
+
+
+
+REQUEST TIME : Sun Feb 27 00:34:10 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/77
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 77, "name": "Poopoo", "genus": "Uh oh2", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}
+
+
+
+REQUEST TIME : Sun Feb 27 00:34:14 2022
+REQUEST METHOD : DELETE
+REQUEST URI : /fruit/77
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"resource": "deleted"}
+
+
+
+REQUEST TIME : Sun Feb 27 00:34:52 2022
+REQUEST METHOD : DELETE
+REQUEST URI : /fruit/77
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sun Feb 27 00:34:53 2022
+REQUEST METHOD : DELETE
+REQUEST URI : /fruit/77
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sun Feb 27 00:34:56 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/77
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sun Feb 27 00:35:02 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 1, "name": "Banana", "genus": "Musa", "order": "Zingiberales", "family": "Musaceae", "nutritions": {"fat": 0.2, "sugar": 17.2, "protein": 1, "calories": 96, "carbohydrates": 22}}, {"id": 2, "name": "Orange", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.2, "sugar": 8.2, "protein": 1, "calories": 43, "carbohydrates": 8.3}}, {"id": 3, "name": "Strawberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0.8, "calories": 29, "carbohydrates": 5.5}}, {"id": 4, "name": "Pear", "genus": "Pyrus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 10, "protein": 0.4, "calories": 57, "carbohydrates": 15}}, {"id": 5, "name": "Tomato", "genus": "Solanum", "order": "Solanales", "family": "Solanaceae", "nutritions": {"fat": 0.2, "sugar": 2.6, "protein": 0.9, "calories": 74, "carbohydrates": 3.9}}, {"id": 6, "name": "Apple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 10.3, "protein": 0.3, "calories": 52, "carbohydrates": 11.4}}, {"id": 9, "name": "Cherry", "genus": "Prunus", "order": "None", "family": "Rosaceae", "nutritions": {"fat": 0.3, "sugar": 8, "protein": 1, "calories": 50, "carbohydrates": 12}}, {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}, {"id": 23, "name": "Raspberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.7, "sugar": 4.4, "protein": 1.2, "calories": 53, "carbohydrates": 12}}, {"id": 25, "name": "Watermelon", "genus": "Citrullus", "order": "Cucurbitales", "family": "Cucurbitaceae", "nutritions": {"fat": 0.2, "sugar": 6, "protein": 0.6, "calories": 30, "carbohydrates": 8}}, {"id": 26, "name": "Lemon", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.3, "sugar": 2.5, "protein": 1.1, "calories": 29, "carbohydrates": 9}}, {"id": 27, "name": "Mango", "genus": "Mangifera", "order": "Sapindales", "family": "Anacardiaceae", "nutritions": {"fat": 0.38, "sugar": 13.7, "protein": 0.82, "calories": 60, "carbohydrates": 15}}, {"id": 33, "name": "Blueberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0, "calories": 29, "carbohydrates": 5.5}}, {"id": 35, "name": "Apricot", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 3.2, "protein": 0.5, "calories": 15, "carbohydrates": 3.9}}, {"id": 37, "name": "Guava", "genus": "Psidium", "order": "Myrtales", "family": "Myrtaceae", "nutritions": {"fat": 1, "sugar": 9, "protein": 2.6, "calories": 68, "carbohydrates": 14}}, {"id": 41, "name": "Melon", "genus": "Cucumis", "order": "Cucurbitaceae", "family": "Cucurbitaceae", "nutritions": {"fat": 0, "sugar": 8, "protein": 0, "calories": 34, "carbohydrates": 8}}, {"id": 42, "name": "Papaya", "genus": "Carica", "order": "Caricacea", "family": "Caricaceae", "nutritions": {"fat": 0.4, "sugar": 1, "protein": 0, "calories": 43, "carbohydrates": 11}}, {"id": 44, "name": "Lime", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.1, "sugar": 1.7, "protein": 0.3, "calories": 25, "carbohydrates": 8.4}}, {"id": 47, "name": "Grapes", "genus": "Vitis", "order": "Vitales", "family": "Vitaceae", "nutritions": {"fat": 0.16, "sugar": 15.48, "protein": 0.72, "calories": 69, "carbohydrates": 18.1}}, {"id": 52, "name": "Persimmon", "genus": "Diospyros", "order": "Rosales", "family": "Ebenaceae", "nutritions": {"fat": 0, "sugar": 18, "protein": 0, "calories": 81, "carbohydrates": 18}}, {"id": 60, "name": "Durian", "genus": "Durio", "order": "Malvales", "family": "Malvaceae", "nutritions": {"fat": 5.3, "sugar": 6.75, "protein": 1.5, "calories": 147, "carbohydrates": 27.1}}, {"id": 64, "name": "Blackberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 4.5, "protein": 1.3, "calories": 40, "carbohydrates": 9}}, {"id": 65, "name": "Lingonberry", "genus": "Vaccinium", "order": "Ericales", "family": "Ericaceae", "nutritions": {"fat": 0.34, "sugar": 5.74, "protein": 0.75, "calories": 50, "carbohydrates": 11.3}}, {"id": 66, "name": "Kiwi", "genus": "Apteryx", "order": "Struthioniformes", "family": "Actinidiaceae", "nutritions": {"fat": 0.5, "sugar": 9, "protein": 1.1, "calories": 61, "carbohydrates": 15}}, {"id": 67, "name": "Lychee", "genus": "Litchi", "order": "Sapindales", "family": "Sapindaceae", "nutritions": {"fat": 0.44, "sugar": 15, "protein": 0.8, "calories": 66, "carbohydrates": 17}}, {"id": 68, "name": "Fig", "genus": "Ficus", "order": "Rosales", "family": "Moraceae", "nutritions": {"fat": 0.3, "sugar": 16, "protein": 0.8, "calories": 74, "carbohydrates": 19}}, {"id": 69, "name": "Gooseberry", "genus": "Ribes", "order": "Saxifragales", "family": "Grossulariaceae", "nutritions": {"fat": 0.6, "sugar": 0, "protein": 0.9, "calories": 44, "carbohydrates": 10}}, {"id": 70, "name": "Passionfruit", "genus": "Passiflora", "order": "Malpighiales", "family": "Passifloraceae", "nutritions": {"fat": 0.7, "sugar": 11.2, "protein": 2.2, "calories": 97, "carbohydrates": 22.4}}, {"id": 71, "name": "Plum", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.28, "sugar": 9.92, "protein": 0.7, "calories": 46, "carbohydrates": 11.4}}, {"id": 72, "name": "GreenApple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 6.4, "protein": 0.4, "calories": 21, "carbohydrates": 3.1}}, {"id": 73, "name": "Umbu", "genus": "Spondias", "order": "0", "family": "Anacardiaceae", "nutritions": {"fat": 0, "sugar": 0, "protein": 0, "calories": 0, "carbohydrates": 0}}, {"id": 74, "name": "Poopoo", "genus": "Uh oh", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}, {"id": 79, "name": "Poopoo", "genus": "Uh oh3", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}
+
+
+
+REQUEST TIME : Sun Feb 27 00:35:11 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/74
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 74, "name": "Poopoo", "genus": "Uh oh", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}
+
+
+
+REQUEST TIME : Sun Feb 27 00:35:14 2022
+REQUEST METHOD : DELETE
+REQUEST URI : /fruit/74
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"resource": "deleted"}
+
+
+
+REQUEST TIME : Sun Feb 27 00:35:17 2022
+REQUEST METHOD : DELETE
+REQUEST URI : /fruit/74
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sun Feb 27 00:35:17 2022
+REQUEST METHOD : DELETE
+REQUEST URI : /fruit/74
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sun Feb 27 00:35:19 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/74
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sun Feb 27 00:35:23 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 1, "name": "Banana", "genus": "Musa", "order": "Zingiberales", "family": "Musaceae", "nutritions": {"fat": 0.2, "sugar": 17.2, "protein": 1, "calories": 96, "carbohydrates": 22}}, {"id": 2, "name": "Orange", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.2, "sugar": 8.2, "protein": 1, "calories": 43, "carbohydrates": 8.3}}, {"id": 3, "name": "Strawberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0.8, "calories": 29, "carbohydrates": 5.5}}, {"id": 4, "name": "Pear", "genus": "Pyrus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 10, "protein": 0.4, "calories": 57, "carbohydrates": 15}}, {"id": 5, "name": "Tomato", "genus": "Solanum", "order": "Solanales", "family": "Solanaceae", "nutritions": {"fat": 0.2, "sugar": 2.6, "protein": 0.9, "calories": 74, "carbohydrates": 3.9}}, {"id": 6, "name": "Apple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 10.3, "protein": 0.3, "calories": 52, "carbohydrates": 11.4}}, {"id": 9, "name": "Cherry", "genus": "Prunus", "order": "None", "family": "Rosaceae", "nutritions": {"fat": 0.3, "sugar": 8, "protein": 1, "calories": 50, "carbohydrates": 12}}, {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}, {"id": 23, "name": "Raspberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.7, "sugar": 4.4, "protein": 1.2, "calories": 53, "carbohydrates": 12}}, {"id": 25, "name": "Watermelon", "genus": "Citrullus", "order": "Cucurbitales", "family": "Cucurbitaceae", "nutritions": {"fat": 0.2, "sugar": 6, "protein": 0.6, "calories": 30, "carbohydrates": 8}}, {"id": 26, "name": "Lemon", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.3, "sugar": 2.5, "protein": 1.1, "calories": 29, "carbohydrates": 9}}, {"id": 27, "name": "Mango", "genus": "Mangifera", "order": "Sapindales", "family": "Anacardiaceae", "nutritions": {"fat": 0.38, "sugar": 13.7, "protein": 0.82, "calories": 60, "carbohydrates": 15}}, {"id": 33, "name": "Blueberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0, "calories": 29, "carbohydrates": 5.5}}, {"id": 35, "name": "Apricot", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 3.2, "protein": 0.5, "calories": 15, "carbohydrates": 3.9}}, {"id": 37, "name": "Guava", "genus": "Psidium", "order": "Myrtales", "family": "Myrtaceae", "nutritions": {"fat": 1, "sugar": 9, "protein": 2.6, "calories": 68, "carbohydrates": 14}}, {"id": 41, "name": "Melon", "genus": "Cucumis", "order": "Cucurbitaceae", "family": "Cucurbitaceae", "nutritions": {"fat": 0, "sugar": 8, "protein": 0, "calories": 34, "carbohydrates": 8}}, {"id": 42, "name": "Papaya", "genus": "Carica", "order": "Caricacea", "family": "Caricaceae", "nutritions": {"fat": 0.4, "sugar": 1, "protein": 0, "calories": 43, "carbohydrates": 11}}, {"id": 44, "name": "Lime", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.1, "sugar": 1.7, "protein": 0.3, "calories": 25, "carbohydrates": 8.4}}, {"id": 47, "name": "Grapes", "genus": "Vitis", "order": "Vitales", "family": "Vitaceae", "nutritions": {"fat": 0.16, "sugar": 15.48, "protein": 0.72, "calories": 69, "carbohydrates": 18.1}}, {"id": 52, "name": "Persimmon", "genus": "Diospyros", "order": "Rosales", "family": "Ebenaceae", "nutritions": {"fat": 0, "sugar": 18, "protein": 0, "calories": 81, "carbohydrates": 18}}, {"id": 60, "name": "Durian", "genus": "Durio", "order": "Malvales", "family": "Malvaceae", "nutritions": {"fat": 5.3, "sugar": 6.75, "protein": 1.5, "calories": 147, "carbohydrates": 27.1}}, {"id": 64, "name": "Blackberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 4.5, "protein": 1.3, "calories": 40, "carbohydrates": 9}}, {"id": 65, "name": "Lingonberry", "genus": "Vaccinium", "order": "Ericales", "family": "Ericaceae", "nutritions": {"fat": 0.34, "sugar": 5.74, "protein": 0.75, "calories": 50, "carbohydrates": 11.3}}, {"id": 66, "name": "Kiwi", "genus": "Apteryx", "order": "Struthioniformes", "family": "Actinidiaceae", "nutritions": {"fat": 0.5, "sugar": 9, "protein": 1.1, "calories": 61, "carbohydrates": 15}}, {"id": 67, "name": "Lychee", "genus": "Litchi", "order": "Sapindales", "family": "Sapindaceae", "nutritions": {"fat": 0.44, "sugar": 15, "protein": 0.8, "calories": 66, "carbohydrates": 17}}, {"id": 68, "name": "Fig", "genus": "Ficus", "order": "Rosales", "family": "Moraceae", "nutritions": {"fat": 0.3, "sugar": 16, "protein": 0.8, "calories": 74, "carbohydrates": 19}}, {"id": 69, "name": "Gooseberry", "genus": "Ribes", "order": "Saxifragales", "family": "Grossulariaceae", "nutritions": {"fat": 0.6, "sugar": 0, "protein": 0.9, "calories": 44, "carbohydrates": 10}}, {"id": 70, "name": "Passionfruit", "genus": "Passiflora", "order": "Malpighiales", "family": "Passifloraceae", "nutritions": {"fat": 0.7, "sugar": 11.2, "protein": 2.2, "calories": 97, "carbohydrates": 22.4}}, {"id": 71, "name": "Plum", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.28, "sugar": 9.92, "protein": 0.7, "calories": 46, "carbohydrates": 11.4}}, {"id": 72, "name": "GreenApple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 6.4, "protein": 0.4, "calories": 21, "carbohydrates": 3.1}}, {"id": 73, "name": "Umbu", "genus": "Spondias", "order": "0", "family": "Anacardiaceae", "nutritions": {"fat": 0, "sugar": 0, "protein": 0, "calories": 0, "carbohydrates": 0}}, {"id": 79, "name": "Poopoo", "genus": "Uh oh3", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}
+
+
+
+REQUEST TIME : Sun Feb 27 00:35:31 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/a
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sun Feb 27 00:35:32 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/a
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sun Feb 27 00:35:35 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/100
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sun Feb 27 00:35:38 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/10
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}
+
+
+
+REQUEST TIME : Sun Feb 27 00:35:45 2022
+REQUEST METHOD : POST
+REQUEST URI : /fruit/10
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+REQUEST TIME : Sun Feb 27 00:36:16 2022
+REQUEST METHOD : POST
+REQUEST URI : /fruit/10
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 405
+RESPONSE HEADERS :
+RESPONSE BODY : Method not allowed
+
+
+
+REQUEST TIME : Sun Feb 27 00:36:17 2022
+REQUEST METHOD : POST
+REQUEST URI : /fruit/10
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 405
+RESPONSE HEADERS :
+RESPONSE BODY : Method not allowed
+
+
+
+REQUEST TIME : Sun Feb 27 00:36:24 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/10
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}
+
+
+
+RESPONSE CODE : 405
+RESPONSE HEADERS :
+RESPONSE BODY : Method not allowed
+
+
+
+REQUEST TIME : Sun Feb 27 00:36:29 2022
+REQUEST METHOD : PATCH
+REQUEST URI : /fruit/10
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 405
+RESPONSE HEADERS :
+RESPONSE BODY : Method not allowed
+
+
+
+REQUEST TIME : Sun Feb 27 00:36:31 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/10
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 10, "name": "Pineapple", "genus": "Ananas", "order": "Poales", "family": "Bromeliaceae", "nutritions": {"fat": 0.12, "sugar": 9.85, "protein": 0.54, "calories": 50, "carbohydrates": 13.12}}
+
+
+
+RESPONSE CODE : 405
+RESPONSE HEADERS :
+RESPONSE BODY : Method not allowed
+
+
+
+REQUEST TIME : Sun Feb 27 00:36:34 2022
+REQUEST METHOD : DELETE
+REQUEST URI : /fruit/10
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"resource": "deleted"}
+
+
+
+REQUEST TIME : Sun Feb 27 00:36:36 2022
+REQUEST METHOD : DELETE
+REQUEST URI : /fruit/10
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sun Feb 27 00:36:37 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/10
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 404
+RESPONSE HEADERS :
+RESPONSE BODY : Not found
+
+
+
+REQUEST TIME : Sun Feb 27 00:36:40 2022
+REQUEST METHOD : GET
+REQUEST URI : /fruit/
+REQUEST HEADERS :
+Host: localhost:8000
+User-Agent: insomnia/2021.7.2
+Content-Type: application/json
+Accept: */*
+Content-Length: 170
+REQUEST BODY :
+{"genus": "Uh oh3", "name": "Poopoo", "family": "Stinky", "order": "Poopy", "nutritions": { "carbohydrates": 1, "protein": 37, "fat": 40, "calories": 63, "sugar": 100 } }
+
+RESPONSE CODE : 200
+RESPONSE HEADERS : Content-Type: application/json
+RESPONSE BODY : {"id": 1, "name": "Banana", "genus": "Musa", "order": "Zingiberales", "family": "Musaceae", "nutritions": {"fat": 0.2, "sugar": 17.2, "protein": 1, "calories": 96, "carbohydrates": 22}}, {"id": 2, "name": "Orange", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.2, "sugar": 8.2, "protein": 1, "calories": 43, "carbohydrates": 8.3}}, {"id": 3, "name": "Strawberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0.8, "calories": 29, "carbohydrates": 5.5}}, {"id": 4, "name": "Pear", "genus": "Pyrus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 10, "protein": 0.4, "calories": 57, "carbohydrates": 15}}, {"id": 5, "name": "Tomato", "genus": "Solanum", "order": "Solanales", "family": "Solanaceae", "nutritions": {"fat": 0.2, "sugar": 2.6, "protein": 0.9, "calories": 74, "carbohydrates": 3.9}}, {"id": 6, "name": "Apple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 10.3, "protein": 0.3, "calories": 52, "carbohydrates": 11.4}}, {"id": 9, "name": "Cherry", "genus": "Prunus", "order": "None", "family": "Rosaceae", "nutritions": {"fat": 0.3, "sugar": 8, "protein": 1, "calories": 50, "carbohydrates": 12}}, {"id": 23, "name": "Raspberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.7, "sugar": 4.4, "protein": 1.2, "calories": 53, "carbohydrates": 12}}, {"id": 25, "name": "Watermelon", "genus": "Citrullus", "order": "Cucurbitales", "family": "Cucurbitaceae", "nutritions": {"fat": 0.2, "sugar": 6, "protein": 0.6, "calories": 30, "carbohydrates": 8}}, {"id": 26, "name": "Lemon", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.3, "sugar": 2.5, "protein": 1.1, "calories": 29, "carbohydrates": 9}}, {"id": 27, "name": "Mango", "genus": "Mangifera", "order": "Sapindales", "family": "Anacardiaceae", "nutritions": {"fat": 0.38, "sugar": 13.7, "protein": 0.82, "calories": 60, "carbohydrates": 15}}, {"id": 33, "name": "Blueberry", "genus": "Fragaria", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 5.4, "protein": 0, "calories": 29, "carbohydrates": 5.5}}, {"id": 35, "name": "Apricot", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 3.2, "protein": 0.5, "calories": 15, "carbohydrates": 3.9}}, {"id": 37, "name": "Guava", "genus": "Psidium", "order": "Myrtales", "family": "Myrtaceae", "nutritions": {"fat": 1, "sugar": 9, "protein": 2.6, "calories": 68, "carbohydrates": 14}}, {"id": 41, "name": "Melon", "genus": "Cucumis", "order": "Cucurbitaceae", "family": "Cucurbitaceae", "nutritions": {"fat": 0, "sugar": 8, "protein": 0, "calories": 34, "carbohydrates": 8}}, {"id": 42, "name": "Papaya", "genus": "Carica", "order": "Caricacea", "family": "Caricaceae", "nutritions": {"fat": 0.4, "sugar": 1, "protein": 0, "calories": 43, "carbohydrates": 11}}, {"id": 44, "name": "Lime", "genus": "Citrus", "order": "Sapindales", "family": "Rutaceae", "nutritions": {"fat": 0.1, "sugar": 1.7, "protein": 0.3, "calories": 25, "carbohydrates": 8.4}}, {"id": 47, "name": "Grapes", "genus": "Vitis", "order": "Vitales", "family": "Vitaceae", "nutritions": {"fat": 0.16, "sugar": 15.48, "protein": 0.72, "calories": 69, "carbohydrates": 18.1}}, {"id": 52, "name": "Persimmon", "genus": "Diospyros", "order": "Rosales", "family": "Ebenaceae", "nutritions": {"fat": 0, "sugar": 18, "protein": 0, "calories": 81, "carbohydrates": 18}}, {"id": 60, "name": "Durian", "genus": "Durio", "order": "Malvales", "family": "Malvaceae", "nutritions": {"fat": 5.3, "sugar": 6.75, "protein": 1.5, "calories": 147, "carbohydrates": 27.1}}, {"id": 64, "name": "Blackberry", "genus": "Rubus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.4, "sugar": 4.5, "protein": 1.3, "calories": 40, "carbohydrates": 9}}, {"id": 65, "name": "Lingonberry", "genus": "Vaccinium", "order": "Ericales", "family": "Ericaceae", "nutritions": {"fat": 0.34, "sugar": 5.74, "protein": 0.75, "calories": 50, "carbohydrates": 11.3}}, {"id": 66, "name": "Kiwi", "genus": "Apteryx", "order": "Struthioniformes", "family": "Actinidiaceae", "nutritions": {"fat": 0.5, "sugar": 9, "protein": 1.1, "calories": 61, "carbohydrates": 15}}, {"id": 67, "name": "Lychee", "genus": "Litchi", "order": "Sapindales", "family": "Sapindaceae", "nutritions": {"fat": 0.44, "sugar": 15, "protein": 0.8, "calories": 66, "carbohydrates": 17}}, {"id": 68, "name": "Fig", "genus": "Ficus", "order": "Rosales", "family": "Moraceae", "nutritions": {"fat": 0.3, "sugar": 16, "protein": 0.8, "calories": 74, "carbohydrates": 19}}, {"id": 69, "name": "Gooseberry", "genus": "Ribes", "order": "Saxifragales", "family": "Grossulariaceae", "nutritions": {"fat": 0.6, "sugar": 0, "protein": 0.9, "calories": 44, "carbohydrates": 10}}, {"id": 70, "name": "Passionfruit", "genus": "Passiflora", "order": "Malpighiales", "family": "Passifloraceae", "nutritions": {"fat": 0.7, "sugar": 11.2, "protein": 2.2, "calories": 97, "carbohydrates": 22.4}}, {"id": 71, "name": "Plum", "genus": "Prunus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.28, "sugar": 9.92, "protein": 0.7, "calories": 46, "carbohydrates": 11.4}}, {"id": 72, "name": "GreenApple", "genus": "Malus", "order": "Rosales", "family": "Rosaceae", "nutritions": {"fat": 0.1, "sugar": 6.4, "protein": 0.4, "calories": 21, "carbohydrates": 3.1}}, {"id": 73, "name": "Umbu", "genus": "Spondias", "order": "0", "family": "Anacardiaceae", "nutritions": {"fat": 0, "sugar": 0, "protein": 0, "calories": 0, "carbohydrates": 0}}, {"id": 79, "name": "Poopoo", "genus": "Uh oh3", "order": "Poopy", "family": "Stinky", "nutritions": {"fat": 40, "sugar": 100, "protein": 37, "calories": 63, "carbohydrates": 1}}
+
+
+

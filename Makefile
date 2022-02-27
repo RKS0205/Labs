@@ -1,4 +1,4 @@
-SRC_FILES= server.c curl.c database.c response_code.c
+SRC_FILES= server.c curl.c database.c response_code.c uri_path.c check_post_request.c
 SRC=$(addprefix src/, $(SRC_FILES))
 OBJ=$(addprefix obj/, $(SRC_FILES:.c=.o))
 OBJ_DIR=obj
