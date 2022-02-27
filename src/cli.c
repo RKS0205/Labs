@@ -98,7 +98,7 @@ char	**get_all_uri(void)
 		close (fd);
 		return (NULL);
 	}
-	uri[uri_count + 1] = NULL;
+	uri[uri_count] = NULL;
 	close (fd);
 	return (uri);
 }
@@ -140,7 +140,7 @@ int	main(void)
 		if (str_check(line, "log"))
 			do_log();
 		else if (str_check(line, "help"))
-			printf ("Available commands:\n help\n log\n exit\n db reset\n db show\n");
+			printf ("Available commands:\n help\n log\n log delete\n exit\n db reset\n db show\n");
 		else if (str_check(line, "exit"))
 		{
 			free (line);
@@ -150,7 +150,10 @@ int	main(void)
 			reset_mysql_db();
 		else if(str_check(line, "db show"))
 			db_show();
+		else if(str_check(line, "log delete"))
+			fclose(fopen("server.log", "w"));
 		else
 			printf("Command not found\n");
+		free (line);
 	}
 }

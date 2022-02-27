@@ -143,5 +143,6 @@ void	reset_mysql_db(void)
 	for (off = 0; (off = mjson_next(str, strlen(str), off, &koff, &klen, &voff, &vlen, &vtype)) != 0;)
 		insert_into_db(str + voff, vlen);
 	printf ("Database reset successful\n");
+	free (str);
 	mysql_close(conn);
 }
